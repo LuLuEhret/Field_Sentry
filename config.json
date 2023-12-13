@@ -1,0 +1,43 @@
+{
+  "api_key": "47b3b8c2f8061c46d61d01f2cbf28557",
+  "api_url": "http://api.openweathermap.org/data/2.5/forecast",
+
+  "locations": [
+    {
+      "name": "Agroscope Series",
+      "id": 24,
+      "latitude": 46.210646,
+      "longitude": 7.30504,
+      "wind_threshold": 7,
+      "high_temperature_threshold": 33,
+      "has_a_screen": false
+    },
+    {
+      "name": "Agroscope Berries",
+      "id": 25,
+      "latitude": 46.210646,
+      "longitude": 7.30504,
+      "wind_threshold": 7,
+      "high_temperature_threshold": 33,
+      "has_a_screen": true
+    },
+    {
+      "name": "Bioschmid",
+      "id": 23,
+      "latitude": 47.250876,
+      "longitude": 8.238644,
+      "wind_threshold": 7,
+      "high_temperature_threshold": 33,
+      "has_a_screen": true
+    },
+	{
+      "name": "Etchelecu",
+      "id": 26,
+      "latitude": 43.5208,
+      "longitude": -1.1563,
+      "wind_threshold": 7,
+      "high_temperature_threshold": 33,
+      "has_a_screen": true
+    }
+  ]
+}
