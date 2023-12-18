@@ -78,3 +78,63 @@ Timestamp,Installation,Sensor ID,Sensor Name,Snow fall,Strong wind,High temp
 15:34:41 13-12-2023,Bioschmid,"[51, 52, 47, 48, 20, 21, 22]","['TRH03_EXT', 'TRH04_EXT', 'TRH01_agriverti', 'TRH02_agriverti', 'PAR01_agriverti', 'PAR02_agriverti', 'PAR03_agriverti']",[],[],[],
 15:34:41 13-12-2023,Etchelecu,[],[],[],"['15h 13-12-2023', '18h 13-12-2023', '21h 13-12-2023', '00h 14-12-2023']",[],
 
+16:03:12 13-12-2023,Agroscope Series,[116],['rain'],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],
+16:03:12 13-12-2023,Agroscope Berries,[],[],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],
+16:03:12 13-12-2023,Bioschmid,"[51, 52, 47, 48, 20, 21, 22]","['TRH03_EXT', 'TRH04_EXT', 'TRH01_agriverti', 'TRH02_agriverti', 'PAR01_agriverti', 'PAR02_agriverti', 'PAR03_agriverti']",[],[],[],
+16:03:12 13-12-2023,Etchelecu,[],[],[],"['18h 13-12-2023', '21h 13-12-2023', '00h 14-12-2023']",[],
+
+16:09:49 13-12-2023,Agroscope Series,[116],['rain'],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],
+16:09:49 13-12-2023,Agroscope Berries,[],[],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],
+16:09:49 13-12-2023,Bioschmid,"[51, 52, 47, 48, 20, 21, 22]","['TRH03_EXT', 'TRH04_EXT', 'TRH01_agriverti', 'TRH02_agriverti', 'PAR01_agriverti', 'PAR02_agriverti', 'PAR03_agriverti']",[],[],[],
+16:09:49 13-12-2023,Etchelecu,[],[],[],"['18h 13-12-2023', '21h 13-12-2023', '00h 14-12-2023']",[],
+
+16:11:20 13-12-2023,Agroscope Series,[116],['rain'],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],
+16:11:20 13-12-2023,Agroscope Berries,[],[],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],
+16:11:20 13-12-2023,Bioschmid,"[51, 52, 47, 48, 20, 21, 22]","['TRH03_EXT', 'TRH04_EXT', 'TRH01_agriverti', 'TRH02_agriverti', 'PAR01_agriverti', 'PAR02_agriverti', 'PAR03_agriverti']",[],[],[],
+16:11:20 13-12-2023,Etchelecu,[],[],[],"['18h 13-12-2023', '21h 13-12-2023', '00h 14-12-2023']",[],
+
+16:14:01 13-12-2023,Agroscope Series,[116],['rain'],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],
+16:14:01 13-12-2023,Agroscope Berries,[],[],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],
+16:14:01 13-12-2023,Bioschmid,"[51, 52, 47, 48, 20, 21, 22]","['TRH03_EXT', 'TRH04_EXT', 'TRH01_agriverti', 'TRH02_agriverti', 'PAR01_agriverti', 'PAR02_agriverti', 'PAR03_agriverti']",[],[],[],
+16:14:01 13-12-2023,Etchelecu,[],[],[],"['18h 13-12-2023', '21h 13-12-2023', '00h 14-12-2023']",[],
+
+16:22:37 13-12-2023,Agroscope Series,[116],['rain'],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],[]
+16:22:37 13-12-2023,Agroscope Berries,[],[],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],"[['screen_zone6', 'Emergency'], ['screen_zone5', 'Emergency'], ['screen_zone2', 'Emergency'], ['screen_zone1', 'Emergency'], ['screen_zone4', 'Emergency'], ['screen_zone3', 'Emergency']]"
+16:22:37 13-12-2023,Bioschmid,[],[],[],[],[],[]
+16:22:37 13-12-2023,Etchelecu,[],[],[],"['18h 13-12-2023', '21h 13-12-2023', '00h 14-12-2023']",[],"[['main_screen', 'Auto']]"
+
+16:29:12 13-12-2023,Agroscope Series,[116],['rain'],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],[]
+16:29:12 13-12-2023,Agroscope Berries,[],[],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],"[('screen_zone6', 'Emergency'), ('screen_zone5', 'Emergency'), ('screen_zone2', 'Emergency'), ('screen_zone1', 'Emergency'), ('screen_zone4', 'Emergency'), ('screen_zone3', 'Emergency')]"
+16:29:12 13-12-2023,Bioschmid,[],[],[],[],[],[]
+16:29:12 13-12-2023,Etchelecu,[],[],[],"['18h 13-12-2023', '21h 13-12-2023', '00h 14-12-2023']",[],"[('main_screen', 'Auto')]"
+
+16:31:19 13-12-2023,Agroscope Series,[116],['rain'],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],[]
+16:31:19 13-12-2023,Agroscope Berries,[],[],"['03h 14-12-2023', '06h 14-12-2023', '18h 14-12-2023', '00h 15-12-2023']",[],[],"['screen_zone6: Emergency', 'screen_zone5: Emergency', 'screen_zone2: Emergency', 'screen_zone1: Emergency', 'screen_zone4: Emergency', 'screen_zone3: Emergency']"
+16:31:19 13-12-2023,Bioschmid,[],[],[],[],[],[]
+16:31:19 13-12-2023,Etchelecu,[],[],[],"['18h 13-12-2023', '21h 13-12-2023', '00h 14-12-2023']",[],['main_screen: Auto']
+
+11:53:49 14-12-2023,Agroscope Series,[116],['rain'],"['18h 14-12-2023', '21h 14-12-2023', '00h 15-12-2023', '03h 15-12-2023', '06h 15-12-2023']",[],[],[]
+11:53:49 14-12-2023,Agroscope Berries,[],[],"['18h 14-12-2023', '21h 14-12-2023', '00h 15-12-2023', '03h 15-12-2023', '06h 15-12-2023']",[],[],[]
+11:53:49 14-12-2023,Bioschmid,"[51, 52, 47, 48, 20, 21, 22]","['TRH03_EXT', 'TRH04_EXT', 'TRH01_agriverti', 'TRH02_agriverti', 'PAR01_agriverti', 'PAR02_agriverti', 'PAR03_agriverti']",[],[],[],[]
+11:53:49 14-12-2023,Etchelecu,[],[],[],[],[],[]
+
+13:29:05 14-12-2023,Agroscope Series,[116],['rain'],"['18h 14-12-2023', '00h 15-12-2023', '03h 15-12-2023', '06h 15-12-2023']",[],[],[]
+13:29:05 14-12-2023,Agroscope Berries,[],[],"['18h 14-12-2023', '00h 15-12-2023', '03h 15-12-2023', '06h 15-12-2023']",[],[],['No logs found']
+13:29:05 14-12-2023,Bioschmid,"[51, 52, 47, 48, 20, 21, 22]","['TRH03_EXT', 'TRH04_EXT', 'TRH01_agriverti', 'TRH02_agriverti', 'PAR01_agriverti', 'PAR02_agriverti', 'PAR03_agriverti']",[],[],[],['No logs found']
+13:29:05 14-12-2023,Etchelecu,[],[],[],[],[],['No logs found']
+
+13:32:25 14-12-2023,Agroscope Series,[116],['rain'],"['18h 14-12-2023', '00h 15-12-2023', '03h 15-12-2023', '06h 15-12-2023']",[],[],['No logs for 2d+']
+13:32:25 14-12-2023,Agroscope Berries,[],[],"['18h 14-12-2023', '00h 15-12-2023', '03h 15-12-2023', '06h 15-12-2023']",[],[],['No logs for 2d+']
+13:32:25 14-12-2023,Bioschmid,"[51, 52, 47, 48, 20, 21, 22]","['TRH03_EXT', 'TRH04_EXT', 'TRH01_agriverti', 'TRH02_agriverti', 'PAR01_agriverti', 'PAR02_agriverti', 'PAR03_agriverti']",[],[],[],['No logs for 2d+']
+13:32:25 14-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:04:54 18-12-2023,Agroscope Series,[116],['rain'],['00h 21-12-2023'],[],[],['No logs for 2d+']
+13:04:54 18-12-2023,Agroscope Berries,[],[],['00h 21-12-2023'],[],[],['No logs for 2d+']
+13:04:54 18-12-2023,Bioschmid,[],[],[],[],[],['No logs for 2d+']
+13:04:54 18-12-2023,Etchelecu,"[43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81]","['TRH_top_Insolagrin', 'TRH_bottom_Insolagrin', 'WIND01_EXT', 'WIND02_EXT', 'PAR01_Insolagrin', 'PAR02_Insolagrin', 'PAR03_Insolagrin', 'PAR04_Insolagrin', 'PAR01_EXT', 'PAR02_EXT', 'TRH_top_EXT', 'TRH_bottom_EXT', 'GHI_01_EXT', 'TRH_top_control', 'TRH_bottom_control', 'PAR01_control', 'PAR02_control', 'RAIN_EXT']",[],[],[],['No logs for 2d+']
+
+13:06:23 18-12-2023,Agroscope Series,[116],['rain'],['00h 21-12-2023'],[],[],['No logs for 2d+']
+13:06:23 18-12-2023,Agroscope Berries,[],[],['00h 21-12-2023'],[],[],['No logs for 2d+']
+13:06:23 18-12-2023,Bioschmid,[],[],[],[],[],['No logs for 2d+']
+13:06:23 18-12-2023,Etchelecu,"[43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81]","['TRH_top_Insolagrin', 'TRH_bottom_Insolagrin', 'WIND01_EXT', 'WIND02_EXT', 'PAR01_Insolagrin', 'PAR02_Insolagrin', 'PAR03_Insolagrin', 'PAR04_Insolagrin', 'PAR01_EXT', 'PAR02_EXT', 'TRH_top_EXT', 'TRH_bottom_EXT', 'GHI_01_EXT', 'TRH_top_control', 'TRH_bottom_control', 'PAR01_control', 'PAR02_control', 'RAIN_EXT']",[],[],[],['No logs for 2d+']
+

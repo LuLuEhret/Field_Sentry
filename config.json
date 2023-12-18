@@ -10,7 +10,7 @@
       "longitude": 7.30504,
       "wind_threshold": 7,
       "high_temperature_threshold": 33,
-      "has_a_screen": false
+      "has_a_screen": true
     },
     {
       "name": "Agroscope Berries",

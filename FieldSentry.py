@@ -1,6 +1,4 @@
-# FieldSentry
-
-# %% --------------------------------------- Imports ------------------------------------
+# FieldSentry.py is a script that checks the status of the sensors, weather and screens of the installations
 from insolAPI.WebAPI import API
 import simplejson as json
 import pandas as pd
@@ -39,28 +37,33 @@ list_sensor = [
 
 
 dict_screen_mode = {
-    1: "A",
-    2: "M",
-    3: "E",
-    4: "P",
-    5: "D",
-    6: "R",
+    0: "",
+    1: "Auto",
+    2: "Manual",
+    3: "Emergency",
+    4: "Protection",
+    5: "Demo",
+    6: "Remote",
 }
 
+
 time_args = dict(
-    start=pdl.now().subtract(hours=2, minutes=30).to_datetime_string(),
-    stop=pdl.now().subtract(hours=2).to_datetime_string(),
+    start=pdl.now().subtract(days=0, hours=2, minutes=30).to_datetime_string(),
+    stop=pdl.now().subtract(days=0, hours=2).to_datetime_string(),
     timezone="UTC",
+)
+
+time_args_screens = dict(
+    start=pdl.now().subtract(days=2, hours=2, minutes=30).to_datetime_string(),
+    stop=pdl.now().subtract(days=0, hours=2).to_datetime_string(),
+    timezone="UTC",
+    screen_mode=1,
 )
 
 
 installation_path = "C:/Users/Insolight/Desktop/InsolReports/Installations/"
 with open(installation_path + "/local.json") as f:
     local_data = json.load(f)
-
-# with open("C:/Users/Insolight/OneDrive - Insolight/Documents-OD/weather_forecast/config.json") as f:
-#     config_data = json.load(f)
-
 
 class Color:
     RED = "\033[91m"
@@ -70,30 +73,15 @@ class Color:
     RESET = "\033[0m"
 
 
-dict_instal_logs = {}  # type: dict
-dict_sensor_channel_id = {}  # type: dict
-diff_logs = {}  # type: dict
-dict_logs_joined = {}  # type: dict
-dict_channel_id = {}  # type: dict
-dict_missing_sensors = {}  # type: dict
-weather_data = {}
-dict_alerts = {}
-dict_time_of_snow = {} # type: dict
-dict_time_of_wind = {} # type: dict
-dict_time_high_T = {} # type: dict
-dict_alert_time = {} # type: dict
-
-
-# %% --------------------------------------- Weather ------------------------------------
 
 """
 Parameters and response: https://openweathermap.org/forecast5
 """
-def read_json_config(path):
+def read_json_config():
     """
     Read the config.json file and return the api key
     """
-    with open(path + "/config.json") as f:
+    with open("config.json") as f:
         config_data = json.load(f)
 
     installations = {}
@@ -336,22 +324,41 @@ def list_to_string(lst):
 def process_screen_data(df):
     df = df[['screen_id', 'state', 'name']]
     screen_names = df['name'].unique()
-    list_screen_states = []
+    list_states = []
     for screen_name in screen_names:
         df_screen_tmp = df[df['name'] == screen_name]
         df_screen_tmp = df.sort_index(ascending=False)
         state = df_screen_tmp['state'][0]
         # print(f"{screen_name}: {dict_screen_mode[state]}")
-        list_screen_states.append([screen_name, dict_screen_mode[state]])
-        print(list_screen_states)
-    return list_screen_states
+        if state != 1:
+            list_states.append(f"{screen_name}: {dict_screen_mode[state]}")
+        # print(list_screen_states)
+    if screen_names.size == 0:
+        list_states.append("No logs for 2d+")
+    return list_states
 
 
 if __name__ == "__main__":
 
     api = API(local_data["API_user"], local_data["API_pwd"], dev_space=False)
-    dict_instal_json, api_data = read_json_config("C:/Users/Insolight/OneDrive - Insolight/Documents-OD/FieldSentry")
 
+    # declarations of the dictionaries
+    dict_instal_json, api_data = read_json_config()
+    dict_instal_logs = {}  # type: dict
+    dict_sensor_channel_id = {}  # type: dict
+    diff_logs = {}  # type: dict
+    dict_logs_joined = {}  # type: dict
+    dict_channel_id = {}  # type: dict
+    dict_missing_sensors = {}  # type: dict
+    dict_weather_data = {} # type: dict
+    dict_alerts = {} # type: dict
+    dict_time_of_snow = {} # type: dict
+    dict_time_of_wind = {} # type: dict
+    dict_time_high_T = {} # type: dict
+    dict_alert_time = {} # type: dict
+    dict_screen_states = {} # type: dict
+
+    #main loop
     for instal in tqdm(dict_instal_json):
         list_channel_id = [] # type: list
         list_sensor_logging = [] # type: list
@@ -363,14 +370,14 @@ if __name__ == "__main__":
         list_wind_time = []
         list_highT_time = []
         dict_df_screen = {}
-        dict_screen_states = {}
+        list_screen_states = []
 
 
         # get the weather forecast for each installation
-        weather_data[instal] = get_weather_forecast(dict_instal_json, api_data, instal)
+        dict_weather_data[instal] = get_weather_forecast(dict_instal_json, api_data, instal)
         if SHOW_PLOT:
-            plot_weather_forecast(weather_data[instal], instal)
-        dict_alerts[instal] = alert_user(weather_data[instal], dict_instal_json[instal])
+            plot_weather_forecast(dict_weather_data[instal], instal)
+        dict_alerts[instal] = alert_user(dict_weather_data[instal], dict_instal_json[instal])
 
         for i in range(0, len(dict_alerts[instal]), 2):
             # print(Color.RED + f"{loc}: {dict_alerts[loc][i]} at {dict_alerts[loc][i+1]} \n" + Color.RESET)
@@ -384,14 +391,14 @@ if __name__ == "__main__":
                 list_highT_time.append(dict_alerts[instal][i + 1])
                 dict_alert_time[instal]["High temperature"] = dict_alerts[instal][i + 1]
 
+
         #screen data
         if dict_instal_json[instal]["has_a_screen"]:
             with warnings.catch_warnings():
                 warnings.simplefilter("ignore", category=UserWarning)
-                dict_df_screen[instal] = api.get_screens_logs_joined(**time_args, install=dict_instal_json[instal]["id"])
+                dict_df_screen[instal] = api.get_screens_logs_joined(**time_args_screens, install=dict_instal_json[instal]["id"])
                 list_screen_states = process_screen_data(dict_df_screen[instal])
-        else:
-            list_screen_states = []
+        # print(list_screen_states)
         dict_screen_states[instal] = list_screen_states
 
 
@@ -489,6 +496,7 @@ if __name__ == "__main__":
         df_report.loc[instal, ("Snow fall")] = dict_alert_time[instal]["Snow fall"]
         df_report.loc[instal, ("Strong wind")] = dict_alert_time[instal]["Strong wind"]
         df_report.loc[instal, ("High temp")] = dict_alert_time[instal]["High temperature"]
+        df_report.loc[instal, ("Screen mode")] = dict_screen_states[instal]
     df_report = df_report.reset_index(drop=True)
 
     #make a copy of the report dataframe to convert the lists to strings, so that it can be printed
