@@ -1,13 +1,13 @@
-from insolAPI.WebAPI import API
-import simplejson as json
-import pandas as pd
+# from insolAPI.WebAPI import API
+# import simplejson as json
+# import pandas as pd
 import pendulum as pdl
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
-from datetime import datetime, timedelta
+# from datetime import datetime, timedelta
 import warnings
 from tqdm import tqdm
-import sys
+# import sys
 from tabulate import tabulate
 from pytz import timezone
 
@@ -84,6 +84,5 @@ def last_logs(dict_instal, list_sensor, api):
 
     for i in last_log:
         print(i)
-        # last_log[i] = {k: v for k, v in sorted(last_log[instal].items(), key=lambda item: item[1])}
         print(tabulate(last_log[i].items(), headers=["Sensor", "Last log"], tablefmt="psql"))
         print("\n")

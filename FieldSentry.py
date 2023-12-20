@@ -7,8 +7,8 @@ from tqdm import tqdm
 import warnings
 import requests
 import plotly.graph_objects as go
-import matplotlib.pyplot as plt
-import numpy as np
+# import matplotlib.pyplot as plt
+# import numpy as np
 import os
 import datetime
 import sys
@@ -67,21 +67,12 @@ installation_path = "C:/Users/Insolight/Desktop/InsolReports/Installations/"
 with open(installation_path + "/local.json") as f:
     local_data = json.load(f)
 
-class Color:
-    RED = "\033[91m"
-    GREEN = "\033[92m"
-    YELLOW = "\033[93m"
-    BLUE = "\033[94m"
-    RESET = "\033[0m"
 
 
-
-"""
-Parameters and response: https://openweathermap.org/forecast5
-"""
 def read_json_config():
     """
     Read the config.json file and return the api key
+    Parameters and response: https://openweathermap.org/forecast5
     """
     with open("config.json") as f:
         config_data = json.load(f)
@@ -145,6 +136,9 @@ def get_weather_forecast(dict_instal, api_data, city_name):
 
 
 def plot_weather_forecast(weather_data, city_name):
+    """
+    If called, plot the weather forecast for the next 2 days
+    """
     forecast_date = []
     forecast_temp = []
     forecast_snow = []
@@ -252,6 +246,9 @@ def alert_user(weather_data, dict_events):
 
 
 def update_request_count():
+    """
+    update the number of requests made to the API, and the number of requests made during the last hour
+    """
     file_name = "count_requests.csv"
 
     # Check if the file exists
@@ -297,8 +294,9 @@ def log_reports(alerts, loc):
 
 
 def save_alerts_to_csv(df):
-    # current_timestamp =
-    # new_df = df.copy()
+    """
+    update the csv file with the alerts
+    """
     df['Timestamp'] = datetime.datetime.now().strftime('%H:%M:%S %d-%m-%Y')
 
     #replace \n with a ","
@@ -313,13 +311,15 @@ def save_alerts_to_csv(df):
         df.to_csv("log_reports.csv", index=False, header=True) # add the header if the file doesn't exist
     else:
         df.to_csv("log_reports.csv", mode='a', header=False, index=False)
-        #add a blank line
         with open("log_reports.csv", "a") as file:
             file.write("\n")
 
 
 
 def list_to_string(lst):
+    """
+    Convert a list to a string, to be able to print it
+    """
     try:
         return "\n".join(map(str, lst))
     except Exception as e:
@@ -328,6 +328,9 @@ def list_to_string(lst):
 
 
 def process_screen_data(df):
+    """
+    logics to process the screen data
+    """
     df = df[['screen_id', 'state', 'name']]
     screen_names = df['name'].unique()
     list_states = []
@@ -335,10 +338,8 @@ def process_screen_data(df):
         df_screen_tmp = df[df['name'] == screen_name]
         df_screen_tmp = df.sort_index(ascending=False)
         state = df_screen_tmp['state'][0]
-        # print(f"{screen_name}: {dict_screen_mode[state]}")
         if state != 1:
             list_states.append(f"{screen_name}: {dict_screen_mode[state]}")
-        # print(list_screen_states)
     if screen_names.size == 0:
         list_states.append("No logs for 2d+")
     return list_states
@@ -397,7 +398,6 @@ if __name__ == "__main__":
         dict_alerts[instal] = alert_user(dict_weather_data[instal], dict_instal_json[instal])
 
         for i in range(0, len(dict_alerts[instal]), 2):
-            # print(Color.RED + f"{loc}: {dict_alerts[loc][i]} at {dict_alerts[loc][i+1]} \n" + Color.RESET)
             if dict_alerts[instal][i] == "Snow fall":
                 list_snow_time.append(dict_alerts[instal][i + 1])
                 dict_alert_time[instal]["Snow fall"].append(dict_alerts[instal][i + 1])
@@ -415,14 +415,12 @@ if __name__ == "__main__":
                 warnings.simplefilter("ignore", category=UserWarning)
                 dict_df_screen[instal] = api.get_screens_logs_joined(**time_args_screens, install=dict_instal_json[instal]["id"])
                 list_screen_states = process_screen_data(dict_df_screen[instal])
-        # print(list_screen_states)
         dict_screen_states[instal] = list_screen_states
 
 
         # get all the sensors and channels for each installation
         for sensor_type in api.SensorsTypes:
             if str(sensor_type).split(".")[1] in list_sensor:
-                # print(sensor_type)
                 try:
                     with warnings.catch_warnings():
                         warnings.simplefilter("ignore", category=UserWarning)
