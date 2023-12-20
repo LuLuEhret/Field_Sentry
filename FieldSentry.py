@@ -301,8 +301,12 @@ def save_alerts_to_csv(df):
     # new_df = df.copy()
     df['Timestamp'] = datetime.datetime.now().strftime('%H:%M:%S %d-%m-%Y')
 
+    #replace \n with a ","
+    df = df.replace('\n', ', ', regex=True)
+
     cols = df.columns.tolist()
     df = df[[cols[-1]] + cols[:-1]]
+
 
     #check if the file exists
     if not os.path.exists("log_reports.csv"):
@@ -341,14 +345,19 @@ def process_screen_data(df):
 
 
 if __name__ == "__main__":
-    with open("api_credits_path.json") as f:
-        installation_path = json.load(f)["path"]
+    try:
+        with open("api_credits_path.json") as f:
+            installation_path = json.load(f)["path"]
 
-    # installation_path = "C:/Users/Insolight/Desktop/InsolReports/Installations/"
-    with open(installation_path + "/local.json") as f:
-        local_data = json.load(f)
+        # installation_path = "C:/Users/Insolight/Desktop/InsolReports/Installations/"
+        with open(installation_path + "/local.json") as f:
+            local_data = json.load(f)
 
-    api = API(local_data["API_user"], local_data["API_pwd"], dev_space=False)
+        api = API(local_data["API_user"], local_data["API_pwd"], dev_space=False)
+    except Exception as e:
+        print(f"{e}")
+        sys.stdout.flush()
+        sys.exit(0)
 
     # declarations of the dictionaries
     dict_instal_json, api_data = read_json_config()
@@ -433,7 +442,6 @@ if __name__ == "__main__":
                 except:
                     pass
                 try:
-                    # print(sensor_type)
                     with warnings.catch_warnings():
                         warnings.simplefilter("ignore", category=UserWarning)
 
@@ -446,9 +454,7 @@ if __name__ == "__main__":
                         list_channel_id.extend(
                             dict_sensor_channel_id[instal][list_sensor[sensor_number]][dict_sensor_channel_id[instal][list_sensor[sensor_number]]["deleted_at"].isna()].index.tolist()
                         )
-                    # print(sensor_type)
                 except Exception as e:
-                    # print(f"Error: {e}")
                     pass
                 sensor_number += 1
 
@@ -477,7 +483,6 @@ if __name__ == "__main__":
                         .loc[sensor_id]
                         .channel_name,
                     ]
-                    # print(Color.RED + f"{sensor_id}: {dict_missing_sensors[sensor_id]}" + Color.RESET)
                 except:
                     pass
 
@@ -518,7 +523,7 @@ if __name__ == "__main__":
         df_report_string[col] = df_report_string[col].apply(list_to_string)
 
 
-    save_alerts_to_csv(df_report)
+    save_alerts_to_csv(df_report_string.copy())
 
     print(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
 
