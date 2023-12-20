@@ -153,3 +153,111 @@ Timestamp,Installation,Sensor ID,Sensor Name,Snow fall,Strong wind,High temp
 09:57:36 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '09h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023']",[],['No logs for 2d+']
 09:57:36 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
 
+12:14:19 20-12-2023,Agroscope Series,[116],['rain'],[],[],[],['No logs for 2d+']
+12:14:19 20-12-2023,Agroscope Berries,[],[],[],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+12:14:19 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '09h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+12:14:19 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+12:16:28 20-12-2023,Agroscope Series,[116],['rain'],[],[],[],['No logs for 2d+']
+12:16:28 20-12-2023,Agroscope Berries,[],[],[],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+12:16:28 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '09h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+12:16:28 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+12:16:45 20-12-2023,Agroscope Series,[116],['rain'],[],[],[],['No logs for 2d+']
+12:16:45 20-12-2023,Agroscope Berries,[],[],[],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+12:16:45 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '09h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+12:16:45 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+12:18:04 20-12-2023,Agroscope Series,[116],['rain'],[],[],[],['No logs for 2d+']
+12:18:04 20-12-2023,Agroscope Berries,[],[],[],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+12:18:04 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '09h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+12:18:04 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:15:30 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+13:15:30 20-12-2023,Agroscope Berries,[],[],['03h 21-12-2023'],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+13:15:30 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '06h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+13:15:30 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:20:55 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:22:10 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:23:29 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:24:50 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:25:14 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:26:44 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:27:18 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:28:26 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:29:10 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:29:42 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+13:31:13 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+13:31:13 20-12-2023,Agroscope Berries,[],[],['03h 21-12-2023'],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+13:31:13 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '06h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+13:31:13 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+14:13:27 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+14:13:27 20-12-2023,Agroscope Berries,[],[],['03h 21-12-2023'],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+14:13:27 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '06h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+14:13:27 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+14:20:43 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+14:22:48 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+14:40:54 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+14:42:35 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+14:47:23 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+14:48:26 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+14:50:16 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+14:52:02 20-12-2023,Agroscope Series,[116],['rain'],['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+14:56:10 20-12-2023,Agroscope Series,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 151, 42, 12, 13, 41, 43, 44, 152, 153, 45, 25, 12, 13, 152, 67, 68, 41, 43, 44, 46, 47, 48, 49, 50, 51, 110]","['weather_station', 'PAR1', 'PAR2', 'PAR3', 'PAR4', 'PAR5', 'PAR6', 'PAR7', 'PAR8', 'T_RH1', 'T_RH2', 'PAR_ext', 'rain', 'radiation', 'wind_speed', 'wind_speed_ultrasonic', 'PAR_straw', 'radiation2', 'irradiance', 'irradiance_bifi', 'PAR_control', 'PAR_ext_bis', 'T_RH_control_top', 'T_RH_control_bottom', 'PAR_ext_ter', 'T_RH_ext_bottom', 'PAR01_REF1', 'PAR01_REF2', 'TRH01_REF1', 'TRH01_REF2', 'TRH02_REF2', 'PAR_CTRL_STRAWB', 'PAR_STRAWB', 'TRH_EXT_top', 'PAR_umbrella', 'PAR01_TX_tunnel', 'PAR01_GT_tunnel', 'PAR_umbrella_strawb', 'T_RH_umbrella_top', 'T_RH_umbrella_bottom', 'TRH01_TX_tunnel', 'TRH01_GT_tunnel', 'TRH02_GT_tunnel', 'TRH01_GT1_tunnel', 'TRH02_GT1_tunnel', 'PAR01_GT1_tunnel', 'TRH_top_Nursery', 'TRH_bottom_Nursery', 'PAR01_Nursery', 'GHI_EXT']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+14:57:07 20-12-2023,Agroscope Series,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 151, 42, 12, 13, 41, 43, 44, 152, 153, 45, 25, 12, 13, 152, 67, 68, 41, 43, 44, 46, 47, 48, 49, 50, 51, 110]","['weather_station', 'PAR1', 'PAR2', 'PAR3', 'PAR4', 'PAR5', 'PAR6', 'PAR7', 'PAR8', 'T_RH1', 'T_RH2', 'PAR_ext', 'rain', 'radiation', 'wind_speed', 'wind_speed_ultrasonic', 'PAR_straw', 'radiation2', 'irradiance', 'irradiance_bifi', 'PAR_control', 'PAR_ext_bis', 'T_RH_control_top', 'T_RH_control_bottom', 'PAR_ext_ter', 'T_RH_ext_bottom', 'PAR01_REF1', 'PAR01_REF2', 'TRH01_REF1', 'TRH01_REF2', 'TRH02_REF2', 'PAR_CTRL_STRAWB', 'PAR_STRAWB', 'TRH_EXT_top', 'PAR_umbrella', 'PAR01_TX_tunnel', 'PAR01_GT_tunnel', 'PAR_umbrella_strawb', 'T_RH_umbrella_top', 'T_RH_umbrella_bottom', 'TRH01_TX_tunnel', 'TRH01_GT_tunnel', 'TRH02_GT_tunnel', 'TRH01_GT1_tunnel', 'TRH02_GT1_tunnel', 'PAR01_GT1_tunnel', 'TRH_top_Nursery', 'TRH_bottom_Nursery', 'PAR01_Nursery', 'GHI_EXT']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+15:02:35 20-12-2023,Agroscope Series,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 151, 42, 12, 13, 41, 43, 44, 152, 153, 45, 25, 12, 13, 152, 67, 68, 41, 43, 44, 46, 47, 48, 49, 50, 51, 110]","['weather_station', 'PAR1', 'PAR2', 'PAR3', 'PAR4', 'PAR5', 'PAR6', 'PAR7', 'PAR8', 'T_RH1', 'T_RH2', 'PAR_ext', 'rain', 'radiation', 'wind_speed', 'wind_speed_ultrasonic', 'PAR_straw', 'radiation2', 'irradiance', 'irradiance_bifi', 'PAR_control', 'PAR_ext_bis', 'T_RH_control_top', 'T_RH_control_bottom', 'PAR_ext_ter', 'T_RH_ext_bottom', 'PAR01_REF1', 'PAR01_REF2', 'TRH01_REF1', 'TRH01_REF2', 'TRH02_REF2', 'PAR_CTRL_STRAWB', 'PAR_STRAWB', 'TRH_EXT_top', 'PAR_umbrella', 'PAR01_TX_tunnel', 'PAR01_GT_tunnel', 'PAR_umbrella_strawb', 'T_RH_umbrella_top', 'T_RH_umbrella_bottom', 'TRH01_TX_tunnel', 'TRH01_GT_tunnel', 'TRH02_GT_tunnel', 'TRH01_GT1_tunnel', 'TRH02_GT1_tunnel', 'PAR01_GT1_tunnel', 'TRH_top_Nursery', 'TRH_bottom_Nursery', 'PAR01_Nursery', 'GHI_EXT']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+15:05:23 20-12-2023,Agroscope Series,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 151, 42, 12, 13, 41, 43, 44, 152, 153, 45, 25, 12, 13, 152, 67, 68, 41, 43, 44, 46, 47, 48, 49, 50, 51, 110]","['weather_station', 'PAR1', 'PAR2', 'PAR3', 'PAR4', 'PAR5', 'PAR6', 'PAR7', 'PAR8', 'T_RH1', 'T_RH2', 'PAR_ext', 'rain', 'radiation', 'wind_speed', 'wind_speed_ultrasonic', 'PAR_straw', 'radiation2', 'irradiance', 'irradiance_bifi', 'PAR_control', 'PAR_ext_bis', 'T_RH_control_top', 'T_RH_control_bottom', 'PAR_ext_ter', 'T_RH_ext_bottom', 'PAR01_REF1', 'PAR01_REF2', 'TRH01_REF1', 'TRH01_REF2', 'TRH02_REF2', 'PAR_CTRL_STRAWB', 'PAR_STRAWB', 'TRH_EXT_top', 'PAR_umbrella', 'PAR01_TX_tunnel', 'PAR01_GT_tunnel', 'PAR_umbrella_strawb', 'T_RH_umbrella_top', 'T_RH_umbrella_bottom', 'TRH01_TX_tunnel', 'TRH01_GT_tunnel', 'TRH02_GT_tunnel', 'TRH01_GT1_tunnel', 'TRH02_GT1_tunnel', 'PAR01_GT1_tunnel', 'TRH_top_Nursery', 'TRH_bottom_Nursery', 'PAR01_Nursery', 'GHI_EXT']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+15:10:25 20-12-2023,Agroscope Series,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 151, 42, 12, 13, 41, 43, 44, 152, 153, 45, 25, 12, 13, 152, 67, 68, 41, 43, 44, 46, 47, 48, 49, 50, 51, 110]","['weather_station', 'PAR1', 'PAR2', 'PAR3', 'PAR4', 'PAR5', 'PAR6', 'PAR7', 'PAR8', 'T_RH1', 'T_RH2', 'PAR_ext', 'rain', 'radiation', 'wind_speed', 'wind_speed_ultrasonic', 'PAR_straw', 'radiation2', 'irradiance', 'irradiance_bifi', 'PAR_control', 'PAR_ext_bis', 'T_RH_control_top', 'T_RH_control_bottom', 'PAR_ext_ter', 'T_RH_ext_bottom', 'PAR01_REF1', 'PAR01_REF2', 'TRH01_REF1', 'TRH01_REF2', 'TRH02_REF2', 'PAR_CTRL_STRAWB', 'PAR_STRAWB', 'TRH_EXT_top', 'PAR_umbrella', 'PAR01_TX_tunnel', 'PAR01_GT_tunnel', 'PAR_umbrella_strawb', 'T_RH_umbrella_top', 'T_RH_umbrella_bottom', 'TRH01_TX_tunnel', 'TRH01_GT_tunnel', 'TRH02_GT_tunnel', 'TRH01_GT1_tunnel', 'TRH02_GT1_tunnel', 'PAR01_GT1_tunnel', 'TRH_top_Nursery', 'TRH_bottom_Nursery', 'PAR01_Nursery', 'GHI_EXT']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+15:11:35 20-12-2023,Agroscope Series,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 151, 42, 12, 13, 41, 43, 44, 152, 153, 45, 25, 12, 13, 152, 67, 68, 41, 43, 44, 46, 47, 48, 49, 50, 51, 110]","['weather_station', 'PAR1', 'PAR2', 'PAR3', 'PAR4', 'PAR5', 'PAR6', 'PAR7', 'PAR8', 'T_RH1', 'T_RH2', 'PAR_ext', 'rain', 'radiation', 'wind_speed', 'wind_speed_ultrasonic', 'PAR_straw', 'radiation2', 'irradiance', 'irradiance_bifi', 'PAR_control', 'PAR_ext_bis', 'T_RH_control_top', 'T_RH_control_bottom', 'PAR_ext_ter', 'T_RH_ext_bottom', 'PAR01_REF1', 'PAR01_REF2', 'TRH01_REF1', 'TRH01_REF2', 'TRH02_REF2', 'PAR_CTRL_STRAWB', 'PAR_STRAWB', 'TRH_EXT_top', 'PAR_umbrella', 'PAR01_TX_tunnel', 'PAR01_GT_tunnel', 'PAR_umbrella_strawb', 'T_RH_umbrella_top', 'T_RH_umbrella_bottom', 'TRH01_TX_tunnel', 'TRH01_GT_tunnel', 'TRH02_GT_tunnel', 'TRH01_GT1_tunnel', 'TRH02_GT1_tunnel', 'PAR01_GT1_tunnel', 'TRH_top_Nursery', 'TRH_bottom_Nursery', 'PAR01_Nursery', 'GHI_EXT']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+15:12:15 20-12-2023,Agroscope Series,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 130, 131, 132, 151, 42, 0, 0, 12, 13, 41, 43, 44, 130, 131, 132, 152, 153, 45, 25, 12, 13, 152, 67, 68, 41, 43, 44, 46, 47, 48, 49, 50, 51, 110]","['weather_station', 'PAR1', 'PAR2', 'PAR3', 'PAR4', 'PAR5', 'PAR6', 'PAR7', 'PAR8', 'T_RH1', 'T_RH2', 'PAR_ext', 'rain', 'radiation', 'wind_speed', 'wind_speed_ultrasonic', 'PAR_straw', 'radiation2', 'irradiance', 'irradiance_bifi', 'PAR_control', 'PAR_ext_bis', 'T_RH_control_top', 'T_RH_control_bottom', 'leaf_temp1', 'leaf_temp2', 'leaf_temp3', 'PAR_ext_ter', 'T_RH_ext_bottom', 'wind_screen_monitor', 'rain_screen_monitor', 'PAR01_REF1', 'PAR01_REF2', 'TRH01_REF1', 'TRH01_REF2', 'TRH02_REF2', 'leaf_temp_FS1', 'leaf_temp_umbrella1', 'leaf_temp_insolagrin_1', 'PAR_CTRL_STRAWB', 'PAR_STRAWB', 'TRH_EXT_top', 'PAR_umbrella', 'PAR01_TX_tunnel', 'PAR01_GT_tunnel', 'PAR_umbrella_strawb', 'T_RH_umbrella_top', 'T_RH_umbrella_bottom', 'TRH01_TX_tunnel', 'TRH01_GT_tunnel', 'TRH02_GT_tunnel', 'TRH01_GT1_tunnel', 'TRH02_GT1_tunnel', 'PAR01_GT1_tunnel', 'TRH_top_Nursery', 'TRH_bottom_Nursery', 'PAR01_Nursery', 'GHI_EXT']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+15:14:50 20-12-2023,Agroscope Series,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 130, 131, 132, 151, 42, 0, 0, 12, 13, 41, 43, 44, 130, 131, 132, 152, 153, 45, 25, 12, 13, 152, 67, 68, 41, 43, 44, 46, 47, 48, 49, 50, 51, 110]","['weather_station', 'PAR1', 'PAR2', 'PAR3', 'PAR4', 'PAR5', 'PAR6', 'PAR7', 'PAR8', 'T_RH1', 'T_RH2', 'PAR_ext', 'rain', 'radiation', 'wind_speed', 'wind_speed_ultrasonic', 'PAR_straw', 'radiation2', 'irradiance', 'irradiance_bifi', 'PAR_control', 'PAR_ext_bis', 'T_RH_control_top', 'T_RH_control_bottom', 'leaf_temp1', 'leaf_temp2', 'leaf_temp3', 'PAR_ext_ter', 'T_RH_ext_bottom', 'wind_screen_monitor', 'rain_screen_monitor', 'PAR01_REF1', 'PAR01_REF2', 'TRH01_REF1', 'TRH01_REF2', 'TRH02_REF2', 'leaf_temp_FS1', 'leaf_temp_umbrella1', 'leaf_temp_insolagrin_1', 'PAR_CTRL_STRAWB', 'PAR_STRAWB', 'TRH_EXT_top', 'PAR_umbrella', 'PAR01_TX_tunnel', 'PAR01_GT_tunnel', 'PAR_umbrella_strawb', 'T_RH_umbrella_top', 'T_RH_umbrella_bottom', 'TRH01_TX_tunnel', 'TRH01_GT_tunnel', 'TRH02_GT_tunnel', 'TRH01_GT1_tunnel', 'TRH02_GT1_tunnel', 'PAR01_GT1_tunnel', 'TRH_top_Nursery', 'TRH_bottom_Nursery', 'PAR01_Nursery', 'GHI_EXT']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+15:16:37 20-12-2023,Agroscope Series,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 130, 131, 132, 151, 42, 0, 0, 12, 13, 41, 43, 44, 130, 131, 132, 152, 153, 45, 25, 12, 13, 152, 67, 68, 41, 43, 44, 46, 47, 48, 49, 50, 51, 110]","['weather_station', 'PAR1', 'PAR2', 'PAR3', 'PAR4', 'PAR5', 'PAR6', 'PAR7', 'PAR8', 'T_RH1', 'T_RH2', 'PAR_ext', 'rain', 'radiation', 'wind_speed', 'wind_speed_ultrasonic', 'PAR_straw', 'radiation2', 'irradiance', 'irradiance_bifi', 'PAR_control', 'PAR_ext_bis', 'T_RH_control_top', 'T_RH_control_bottom', 'leaf_temp1', 'leaf_temp2', 'leaf_temp3', 'PAR_ext_ter', 'T_RH_ext_bottom', 'wind_screen_monitor', 'rain_screen_monitor', 'PAR01_REF1', 'PAR01_REF2', 'TRH01_REF1', 'TRH01_REF2', 'TRH02_REF2', 'leaf_temp_FS1', 'leaf_temp_umbrella1', 'leaf_temp_insolagrin_1', 'PAR_CTRL_STRAWB', 'PAR_STRAWB', 'TRH_EXT_top', 'PAR_umbrella', 'PAR01_TX_tunnel', 'PAR01_GT_tunnel', 'PAR_umbrella_strawb', 'T_RH_umbrella_top', 'T_RH_umbrella_bottom', 'TRH01_TX_tunnel', 'TRH01_GT_tunnel', 'TRH02_GT_tunnel', 'TRH01_GT1_tunnel', 'TRH02_GT1_tunnel', 'PAR01_GT1_tunnel', 'TRH_top_Nursery', 'TRH_bottom_Nursery', 'PAR01_Nursery', 'GHI_EXT']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+15:17:08 20-12-2023,Agroscope Series,"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 130, 131, 132, 151, 42, 0, 0, 12, 13, 41, 43, 44, 130, 131, 132, 152, 153, 45, 25, 12, 13, 152, 67, 68, 41, 43, 44, 46, 47, 48, 49, 50, 51, 110]","['weather_station', 'PAR1', 'PAR2', 'PAR3', 'PAR4', 'PAR5', 'PAR6', 'PAR7', 'PAR8', 'T_RH1', 'T_RH2', 'PAR_ext', 'rain', 'radiation', 'wind_speed', 'wind_speed_ultrasonic', 'PAR_straw', 'radiation2', 'irradiance', 'irradiance_bifi', 'PAR_control', 'PAR_ext_bis', 'T_RH_control_top', 'T_RH_control_bottom', 'leaf_temp1', 'leaf_temp2', 'leaf_temp3', 'PAR_ext_ter', 'T_RH_ext_bottom', 'wind_screen_monitor', 'rain_screen_monitor', 'PAR01_REF1', 'PAR01_REF2', 'TRH01_REF1', 'TRH01_REF2', 'TRH02_REF2', 'leaf_temp_FS1', 'leaf_temp_umbrella1', 'leaf_temp_insolagrin_1', 'PAR_CTRL_STRAWB', 'PAR_STRAWB', 'TRH_EXT_top', 'PAR_umbrella', 'PAR01_TX_tunnel', 'PAR01_GT_tunnel', 'PAR_umbrella_strawb', 'T_RH_umbrella_top', 'T_RH_umbrella_bottom', 'TRH01_TX_tunnel', 'TRH01_GT_tunnel', 'TRH02_GT_tunnel', 'TRH01_GT1_tunnel', 'TRH02_GT1_tunnel', 'PAR01_GT1_tunnel', 'TRH_top_Nursery', 'TRH_bottom_Nursery', 'PAR01_Nursery', 'GHI_EXT']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+15:23:26 20-12-2023,Agroscope Series,"[130, 116]","['leaf_temp_FS1', 'rain']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+
+15:24:47 20-12-2023,Agroscope Series,"[130, 116]","['leaf_temp_FS1', 'rain']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+15:24:47 20-12-2023,Agroscope Berries,[],[],['03h 21-12-2023'],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+15:24:47 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '06h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+15:24:47 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+15:32:42 20-12-2023,Agroscope Series,"[130, 116]","['leaf_temp_FS1', 'rain']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+15:32:42 20-12-2023,Agroscope Berries,[],[],['03h 21-12-2023'],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+15:32:42 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '06h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+15:32:42 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+
+15:34:42 20-12-2023,Agroscope Series,"[130, 116]","['leaf_temp_FS1', 'rain']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+15:34:42 20-12-2023,Agroscope Berries,[],[],['03h 21-12-2023'],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+15:34:42 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '06h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+15:34:42 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+

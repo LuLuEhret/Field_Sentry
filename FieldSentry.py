@@ -14,6 +14,7 @@ import datetime
 import sys
 from tabulate import tabulate
 from pytz import timezone
+import last_logs as ll
 
 
 SHOW_PLOT = False
@@ -406,6 +407,7 @@ if __name__ == "__main__":
         # get all the sensors and channels for each installation
         for sensor_type in api.SensorsTypes:
             if str(sensor_type).split(".")[1] in list_sensor:
+                # print(sensor_type)
                 try:
                     with warnings.catch_warnings():
                         warnings.simplefilter("ignore", category=UserWarning)
@@ -424,25 +426,25 @@ if __name__ == "__main__":
                         )
                 except:
                     pass
-            try:
-                with warnings.catch_warnings():
-                    warnings.simplefilter("ignore", category=UserWarning)
+                try:
+                    # print(sensor_type)
+                    with warnings.catch_warnings():
+                        warnings.simplefilter("ignore", category=UserWarning)
 
-                    dict_sensor_channel_id[instal][
-                        list_sensor[sensor_number]
-                    ] = api.get_sensor_channels(
-                        sensor_type=sensor_type, install=dict_instal_json[instal]["id"]
-                    )
-                    list_channel_id.extend(
-                        dict_sensor_channel_id[instal][list_sensor[sensor_number]][
-                            dict_sensor_channel_id[instal][list_sensor[sensor_number]][
-                                "deleted_at"
-                            ].isnull()
-                        ].index.to_list()
-                    )
-            except:
-                pass
-            sensor_number += 1
+                        dict_sensor_channel_id[instal][
+                            list_sensor[sensor_number]
+                        ] = api.get_sensor_channels(
+                            sensor_type=sensor_type, install=dict_instal_json[instal]["id"]
+                        )
+
+                        list_channel_id.extend(
+                            dict_sensor_channel_id[instal][list_sensor[sensor_number]][dict_sensor_channel_id[instal][list_sensor[sensor_number]]["deleted_at"].isna()].index.tolist()
+                        )
+                    # print(sensor_type)
+                except Exception as e:
+                    # print(f"Error: {e}")
+                    pass
+                sensor_number += 1
 
         dict_instal_logs[instal] = list_sensor_logging  # dict with the list of sensors logging for each installation
         dict_channel_id[instal] = list_channel_id       # dict with the list of channels for each installation
@@ -495,7 +497,7 @@ if __name__ == "__main__":
             df_missing_sensors["installation"] == instal
         ].sensor_name.to_list()
         df_report.loc[instal, ("Snow fall")] = dict_alert_time[instal]["Snow fall"]
-        df_report.loc[instal, ("Wind > 7m/s")] = dict_alert_time[instal]["Strong wind"]
+        df_report.loc[instal, ("Strong wind")] = dict_alert_time[instal]["Strong wind"]
         df_report.loc[instal, ("High temp")] = dict_alert_time[instal]["High temperature"]
         df_report.loc[instal, ("Screen mode")] = dict_screen_states[instal]
     df_report = df_report.reset_index(drop=True)
@@ -513,3 +515,9 @@ if __name__ == "__main__":
     save_alerts_to_csv(df_report)
 
     print(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
+
+    show_last_log = input("Do you want to see the last log? (y/n) ")
+    if show_last_log == "y":
+        ll.last_logs(dict_instal_json, list_sensor, api)
+    else:
+        pass
