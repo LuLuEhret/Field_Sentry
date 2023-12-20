@@ -261,3 +261,8 @@ Timestamp,Installation,Sensor ID,Sensor Name,Snow fall,Strong wind,High temp
 15:34:42 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '06h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
 15:34:42 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
 
+15:58:14 20-12-2023,Agroscope Series,"[130, 116]","['leaf_temp_FS1', 'rain']",['03h 21-12-2023'],[],[],['No logs for 2d+']
+15:58:14 20-12-2023,Agroscope Berries,[],[],['03h 21-12-2023'],[],[],"['screen_zone1: Emergency', 'screen_zone2: Emergency', 'screen_zone3: Emergency', 'screen_zone4: Emergency', 'screen_zone5: Emergency', 'screen_zone6: Emergency']"
+15:58:14 20-12-2023,Bioschmid,[],[],[],"['12h 21-12-2023', '15h 21-12-2023', '18h 21-12-2023', '21h 21-12-2023', '00h 22-12-2023', '03h 22-12-2023', '06h 22-12-2023', '12h 22-12-2023', '15h 22-12-2023', '18h 22-12-2023', '21h 22-12-2023']",[],['No logs for 2d+']
+15:58:14 20-12-2023,Etchelecu,[],[],[],[],[],['No logs for 2d+']
+

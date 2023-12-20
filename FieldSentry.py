@@ -341,6 +341,12 @@ def process_screen_data(df):
 
 
 if __name__ == "__main__":
+    with open("api_credits_path.json") as f:
+        installation_path = json.load(f)["path"]
+
+    # installation_path = "C:/Users/Insolight/Desktop/InsolReports/Installations/"
+    with open(installation_path + "/local.json") as f:
+        local_data = json.load(f)
 
     api = API(local_data["API_user"], local_data["API_pwd"], dev_space=False)
 
