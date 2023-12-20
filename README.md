@@ -20,3 +20,7 @@ In the file api_credits_path.json, change the path to where is located the file 
 ## How to run
 
 Double click on FieldSentry.bat, or run directly from within a python IDE
+
+## Adding an installation
+
+Open the file "config.json", and add a new field with the same info as the other places
