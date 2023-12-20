@@ -13,6 +13,7 @@ import os
 import datetime
 import sys
 from tabulate import tabulate
+from pytz import timezone
 
 
 SHOW_PLOT = False
@@ -48,16 +49,16 @@ dict_screen_mode = {
 
 
 time_args = dict(
-    start=pdl.now().subtract(days=0, hours=2, minutes=30).to_datetime_string(),
-    stop=pdl.now().subtract(days=0, hours=2).to_datetime_string(),
-    timezone="UTC",
+    start=pdl.now().subtract(days=0, hours=0, minutes=30).to_datetime_string(),
+    stop=pdl.now().subtract(days=0, hours=0).to_datetime_string(),
+    timezone=timezone('Europe/Zurich'),
 )
 
 time_args_screens = dict(
     start=pdl.now().subtract(days=2, hours=2, minutes=30).to_datetime_string(),
     stop=pdl.now().subtract(days=0, hours=2).to_datetime_string(),
     timezone="UTC",
-    screen_mode=1,
+    # screen_mode=1,
 )
 
 
