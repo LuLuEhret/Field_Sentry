@@ -4,8 +4,8 @@ insolinsights
 
 ## Python librairies to add to the environment 
 
-tabulate  
-tqdm  
+- tabulate  
+- tqdm  
 
 conda activate insolinsights  
 pip install tabulate  
