@@ -495,7 +495,7 @@ if __name__ == "__main__":
             df_missing_sensors["installation"] == instal
         ].sensor_name.to_list()
         df_report.loc[instal, ("Snow fall")] = dict_alert_time[instal]["Snow fall"]
-        df_report.loc[instal, ("Strong wind")] = dict_alert_time[instal]["Strong wind"]
+        df_report.loc[instal, ("Wind > 7m/s")] = dict_alert_time[instal]["Strong wind"]
         df_report.loc[instal, ("High temp")] = dict_alert_time[instal]["High temperature"]
         df_report.loc[instal, ("Screen mode")] = dict_screen_states[instal]
     df_report = df_report.reset_index(drop=True)
