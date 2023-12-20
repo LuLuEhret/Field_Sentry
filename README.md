@@ -9,6 +9,7 @@ insolinsights
 - tabulate  
 - tqdm  
 
+-> In the command shell:  
 conda activate insolinsights  
 pip install tabulate  
 pip install tqdm  
