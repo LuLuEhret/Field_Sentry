@@ -22,7 +22,7 @@ In the `config/api_credits_path.json` file, change the path to where the "local.
 
 OR  
 
-- run directly from within a python IDE
+- Run directly from within a python IDE
 
 ## Editing the configuration
 
@@ -32,7 +32,7 @@ Open the file `"config/config.json"` and add a new installation on the same temp
 ### Modification of weather alarm trigger levels
 Open the file `"config/config.json"` and change the wind or high temperature levels
 
-## Results of the script
+## Outout of the script
 - The results of the main table are reported in a csv file named `log_reports.csv`, each time the script is executed. Go to the end of the file to see the last report.
 - The main table presents the report for the weather, the sensors and the screens, with one row per installation. 
 	- The weather is checked for two days in the future. 
