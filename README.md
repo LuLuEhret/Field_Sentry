@@ -1,6 +1,6 @@
 ## Python environment
 
-insolinsights
+The script must be run from within the environment `insolinsights`
 
 ## To do before first execution
 
