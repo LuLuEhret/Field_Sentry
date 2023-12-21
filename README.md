@@ -9,10 +9,9 @@ insolinsights
 - tabulate  
 - tqdm  
 
--> In the command shell:  
-conda activate insolinsights  
-pip install tabulate  
-pip install tqdm  
+`conda activate insolinsights`    
+`pip install tabulate`  
+`pip install tqdm`  
 
 ### Change the path to the local json file 
 In the file api_credits_path.json, change the path to where is located the file named "local.json" (usually in the folder InsolReports/Scripts)
