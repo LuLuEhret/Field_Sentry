@@ -18,12 +18,12 @@ In the file config/api_credits_path.json, change the path to where is located th
 
 ## How to run
 
-Double click on FieldSentry.bat, or run directly from within a python IDE
+Double click on `FieldSentry.bat`, or run directly from within a python IDE
 
 ## Editing the configuration
 
 ### Addition of an installation
-Open the file "config/config.json" and add a new installation on the same template as the already existing ones
+Open the file `"config/config.json"` and add a new installation on the same template as the already existing ones
 
 ### Modification of weather alarm trigger levels
-Open the file "config.json" and change the wind or high temperature levels
+Open the file `"config/config.json"` and change the wind or high temperature levels
