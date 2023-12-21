@@ -18,7 +18,11 @@ In the file `config/api_credits_path.json`, change the path to where is located 
 
 ## How to run
 
-Double click on `FieldSentry.bat`, or run directly from within a python IDE
+- Double click on `FieldSentry.bat`. This will open a command prompt, and the result will be displayed here
+
+OR  
+
+- run directly from within a python IDE
 
 ## Editing the configuration
 
