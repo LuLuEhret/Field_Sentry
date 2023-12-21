@@ -1,6 +1,6 @@
 {
   "api_key": "47b3b8c2f8061c46d61d01f2cbf28557",
-  "api_url": "http://api.openweathermap.org/data/2.5/forecast",
+  "api_url": "http://api.openweathermap.org/data/2.5/forcast",
 
   "locations": [
     {

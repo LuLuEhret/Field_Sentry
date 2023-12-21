@@ -7,8 +7,6 @@ from tqdm import tqdm
 import warnings
 import requests
 import plotly.graph_objects as go
-# import matplotlib.pyplot as plt
-# import numpy as np
 import os
 import datetime
 import sys
@@ -38,6 +36,7 @@ list_sensor = [
 ]
 
 
+
 dict_screen_mode = {
     0: "",
     1: "Auto",
@@ -47,25 +46,6 @@ dict_screen_mode = {
     5: "Demo",
     6: "Remote",
 }
-
-
-time_args = dict(
-    start=pdl.now().subtract(days=0, hours=0, minutes=30).to_datetime_string(),
-    stop=pdl.now().subtract(days=0, hours=0).to_datetime_string(),
-    timezone=timezone('Europe/Zurich'),
-)
-
-time_args_screens = dict(
-    start=pdl.now().subtract(days=2, hours=2, minutes=30).to_datetime_string(),
-    stop=pdl.now().subtract(days=0, hours=2).to_datetime_string(),
-    timezone="UTC",
-    # screen_mode=1,
-)
-
-
-installation_path = "C:/Users/Insolight/Desktop/InsolReports/Installations/"
-with open(installation_path + "/local.json") as f:
-    local_data = json.load(f)
 
 
 
@@ -112,11 +92,11 @@ def format_timestamps_in_dict(input_dict):
     return formatted_dict
 
 
+
 def get_weather_forecast(dict_instal, api_data, city_name):
     """
     Request the weather forecast for the next 2 days, every 3 hours
     """
-    # base_url = "http://api.openweathermap.org/data/2.5/forecast"
     params = {"appid": api_data[0], "cnt": "20", "units": "metric"}
 
     params["lat"] = dict_instal[city_name]["latitude"]
@@ -130,9 +110,32 @@ def get_weather_forecast(dict_instal, api_data, city_name):
         update_request_count()
         return data
 
-    except requests.exceptions.RequestException as e:
-        print(f"Error: {e}")
-        return None
+    except Exception as ex:
+        # print(f" \n Error: {ex}")
+        #generate an empty dict to avoid errors
+        error_dict = {'list': [{'dt': 0,
+                    'main': {'temp': 0,
+                        'feels_like': 0,
+                        'temp_min': 0,
+                        'temp_max': 0,
+                        'pressure': 0,
+                        'sea_level': 0,
+                        'grnd_level': 0,
+                        'humidity': 0,
+                        'temp_kf': 0},
+                    'weather': [{'id': 0,
+                        'main': 'Rain',
+                        'description': 'light rain',
+                        'icon': '10d'}],
+                    'clouds': {'all': 0},
+                    'wind': {'speed': 0, 'deg': 0, 'gust': 0},
+                    'visibility': 0,
+                    'pop': 0,
+                    'rain': {'3h': 0},
+                    'sys': {'pod': 'd'},
+                    'dt_txt': '9999-01-01 00:00:00'}]}
+        return error_dict  # noqa: E501
+
 
 
 def plot_weather_forecast(weather_data, city_name):
@@ -223,6 +226,7 @@ def plot_weather_forecast(weather_data, city_name):
     fig.show()
 
 
+
 def alert_user(weather_data, dict_events):
     """
     Set the threshold for the alerts, and which alerts to send
@@ -242,7 +246,10 @@ def alert_user(weather_data, dict_events):
             alert_list.append("High temperature")
             alert_list.append(forecast["dt_txt"])
         #to add a new alert, add the condition here. Also need to change the main
+    # if forecast["dt"] == 0:
+    #     print("\nError: no weather data available")
     return alert_list
+
 
 
 def update_request_count():
@@ -283,15 +290,6 @@ def update_request_count():
         file.write(f"Total,{count},last hour,{count_last_hour},{timestamp}\n")
 
 
-def log_reports(alerts, loc):
-    """
-    Write the report in a csv file, with the location, the timestamp and the alerts
-    """
-    file_name = "log_reports.csv"
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(file_name, "a") as file:
-        file.write(f"{loc},{timestamp}, {', '.join(alerts)}\n")
-
 
 def save_alerts_to_csv(df):
     """
@@ -307,11 +305,11 @@ def save_alerts_to_csv(df):
 
 
     #check if the file exists
-    if not os.path.exists("log_reports.csv"):
-        df.to_csv("log_reports.csv", index=False, header=True) # add the header if the file doesn't exist
+    if not os.path.exists("reports/log_reports.csv"):
+        df.to_csv("reports/log_reports.csv", index=False, header=True) # add the header if the file doesn't exist
     else:
-        df.to_csv("log_reports.csv", mode='a', header=False, index=False)
-        with open("log_reports.csv", "a") as file:
+        df.to_csv("reports/log_reports.csv", mode='a', header=False, index=False)
+        with open("reports/log_reports.csv", "a") as file:
             file.write("\n")
 
 
@@ -355,10 +353,23 @@ if __name__ == "__main__":
             local_data = json.load(f)
 
         api = API(local_data["API_user"], local_data["API_pwd"], dev_space=False)
+        api.get_sensor_channels(sensor_type=api.SensorsTypes.TEMP, install=23)
+        print("✅ Successfully connected to the API\nCollecting data...")
     except Exception as e:
         print(f"{e}")
         sys.stdout.flush()
         sys.exit(0)
+
+    time_args = dict(
+    start=pdl.now().subtract(days=0, hours=0, minutes=30).to_datetime_string(),
+    stop=pdl.now().subtract(days=0, hours=0).to_datetime_string(),
+    timezone=timezone('Europe/Zurich'),
+    )
+    time_args_screens = dict(
+        start=pdl.now().subtract(days=2, hours=2, minutes=30).to_datetime_string(),
+        stop=pdl.now().subtract(days=0, hours=2).to_datetime_string(),
+        timezone=timezone('Europe/Zurich'),
+    )
 
     # declarations of the dictionaries
     dict_instal_json, api_data = read_json_config()
@@ -523,10 +534,20 @@ if __name__ == "__main__":
 
     save_alerts_to_csv(df_report_string.copy())
 
+    no_weather_data = ""
+    loc_no_weather = ""
+    for instal in dict_instal_json:
+        if dict_weather_data[instal]["list"][0]["dt"] == 0:
+            no_weather_data = "\n⚠️ no weather data available for "
+            loc_no_weather = loc_no_weather + instal + ", "
+    if len(no_weather_data) > 0:
+        print(no_weather_data + loc_no_weather[:-2] + "\n")
+
+
     print(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
 
     show_last_log = input("Do you want to see the last log? (y/n) ")
     if show_last_log == "y":
         ll.last_logs(dict_instal_json, list_sensor, api)
     else:
-        pass
+        print("Exiting...")

@@ -22,6 +22,7 @@ def last_logs(dict_instal, list_sensor, api):
     logs_joined_unique = {}
     last_log = {}
     time_diff = {}
+    print("Collecting data...")
     for instal in tqdm(dict_instal):
         logs_joined[instal] = {}
         dict_list_theoretical[instal] = []
