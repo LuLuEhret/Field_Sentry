@@ -23,7 +23,7 @@ Double click on FieldSentry.bat, or run directly from within a python IDE
 
 ## Editing the configuration
 
-### Adding an installation
+### Addition of an installation
 Open the file "config.json" and add a new installation on the same template as the already existing ones
 
 ### Modification of weather alarm trigger levels
