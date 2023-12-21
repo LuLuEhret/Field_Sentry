@@ -108,7 +108,7 @@ def last_logs(dict_instal, list_sensor, api):
         # Sort the DataFrame by the "Last log" column
         df_sorted = df.sort_values(by="Last log", ascending=True)
 
-        print(f"Installation: {instal}")
+        print(f"{instal}")
         table = tabulate(df_sorted, headers="keys", tablefmt="psql", showindex=True)
         print(table)
         print("\n")
