@@ -356,7 +356,8 @@ if __name__ == "__main__":
         api.get_sensor_channels(sensor_type=api.SensorsTypes.TEMP, install=23)
         print("✅ Successfully connected to the API\nCollecting data...\n")
     except Exception as e:
-        print(f"{e}")
+        print(f"❌ {e}")
+        print("\nExiting...")
         sys.stdout.flush()
         sys.exit(0)
 
@@ -546,8 +547,8 @@ if __name__ == "__main__":
 
     print(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
 
-    show_last_log = input("Do you want to see the last log? (y/n) ")
+    show_last_log = input("\nDo you want to see the last log? (y/n) ")
     if show_last_log == "y":
         ll.last_logs(dict_instal_json, list_sensor, api)
     else:
-        print("Exiting...")
+        print("\nExiting...")
