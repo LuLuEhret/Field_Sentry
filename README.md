@@ -8,10 +8,12 @@ The script must be run from within the environment `insolinsights`
 
 - tabulate  
 - tqdm  
+- openpyxl
 
 `conda activate insolinsights`    
 `pip install tabulate`  
 `pip install tqdm`  
+`pip install openpyxl`  
 
 ### Change the path to the local json file 
 In the `config/api_credits_path.json` file, change the path to where the "local.json" file is located (usually in the InsolReports/Scripts folder) so that the API can access the credits.
