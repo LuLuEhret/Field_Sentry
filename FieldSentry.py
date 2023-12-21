@@ -256,7 +256,7 @@ def update_request_count():
     """
     update the number of requests made to the API, and the number of requests made during the last hour
     """
-    file_name = "count_requests.csv"
+    file_name = "reports/count_requests.csv"
 
     # Check if the file exists
     if os.path.exists(file_name):
@@ -354,7 +354,7 @@ if __name__ == "__main__":
 
         api = API(local_data["API_user"], local_data["API_pwd"], dev_space=False)
         api.get_sensor_channels(sensor_type=api.SensorsTypes.TEMP, install=23)
-        print("✅ Successfully connected to the API\nCollecting data...")
+        print("✅ Successfully connected to the API\nCollecting data...\n")
     except Exception as e:
         print(f"{e}")
         sys.stdout.flush()

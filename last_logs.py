@@ -22,7 +22,7 @@ def last_logs(dict_instal, list_sensor, api):
     logs_joined_unique = {}
     last_log = {}
     time_diff = {}
-    print("Collecting data...")
+    print("\nCollecting data...\n")
     for instal in tqdm(dict_instal):
         logs_joined[instal] = {}
         dict_list_theoretical[instal] = []
@@ -40,8 +40,8 @@ def last_logs(dict_instal, list_sensor, api):
                     except:
                         pass
 
+    print("\nProcessing data...\n")
     for instal in dict_instal:
-        # print(instal)
         unique_sensors[instal] = []
         time_diff[instal] = {}
         for sensor_type in logs_joined[instal]:
@@ -99,3 +99,11 @@ def last_logs(dict_instal, list_sensor, api):
         table = tabulate(df_sorted, headers="keys", tablefmt="psql", showindex=True)
         print(table)
         print("\n")
+
+    saving = input("Save table to excel file? (y/n)")
+    if saving == "y":
+        writer = pd.ExcelWriter('reports/last_log.xlsx', engine='openpyxl')
+        for instal, df in dict_df.items():
+            df.to_excel(writer, sheet_name=instal)
+        writer.close()
+        print("File saved as 'last_log.xlsx'")
