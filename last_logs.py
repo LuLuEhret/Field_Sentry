@@ -88,7 +88,7 @@ def last_logs(dict_instal, list_sensor, api):
     dict_df = {}
     for instal in last_log:
         dict_df[instal] = pd.DataFrame.from_dict(last_log[instal], orient="index", columns=["Last log"])
-        dict_df[instal]["Time w/o logging (1w)"] = dict_df[instal].index.map(time_diff[instal])
+        dict_df[instal]["Time w/o log (1w)"] = dict_df[instal].index.map(time_diff[instal])
 
     #sort the sensors by the last log
     for instal in last_log:
