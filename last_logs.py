@@ -1,13 +1,9 @@
-# from insolAPI.WebAPI import API
-# import simplejson as json
 import pandas as pd
 import pendulum as pdl
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
-# from datetime import datetime, timedelta
 import warnings
 from tqdm import tqdm
-# import sys
 from tabulate import tabulate
 from pytz import timezone
 
@@ -20,9 +16,12 @@ def last_logs(dict_instal, list_sensor, api):
         timezone = timezone('Europe/Zurich')
     )
 
-
     logs_joined = {}
     dict_list_theoretical = {}
+    unique_sensors = {}
+    logs_joined_unique = {}
+    last_log = {}
+    time_diff = {}
     for instal in tqdm(dict_instal):
         logs_joined[instal] = {}
         dict_list_theoretical[instal] = []
@@ -40,10 +39,6 @@ def last_logs(dict_instal, list_sensor, api):
                     except:
                         pass
 
-    unique_sensors = {}
-    logs_joined_unique = {}
-    last_log = {}
-    time_diff = {}
     for instal in dict_instal:
         # print(instal)
         unique_sensors[instal] = []
@@ -88,21 +83,12 @@ def last_logs(dict_instal, list_sensor, api):
     dict_df = {}
     for instal in last_log:
         dict_df[instal] = pd.DataFrame.from_dict(last_log[instal], orient="index", columns=["Last log"])
-        dict_df[instal]["Time w/o log (1w)"] = dict_df[instal].index.map(time_diff[instal])
+        dict_df[instal]["Time offline (1w)"] = dict_df[instal].index.map(time_diff[instal])
 
-    #sort the sensors by the last log
-    for instal in last_log:
-        last_log[instal] = {k: v for k, v in sorted(last_log[instal].items(), key=lambda item: item[1])}
+    # #sort the sensors by the last log
+    # for instal in last_log:
+    #     last_log[instal] = {k: v for k, v in sorted(last_log[instal].items(), key=lambda item: item[1])}
 
-    # for i in last_log:
-    #     print(i)
-    #     print(tabulate(last_log[i].items(), headers=["Sensor", "Last log"], tablefmt="psql"))
-    #     print("\n")
-
-
-
-
-# Assuming dict_df is a dictionary with installations as keys and DataFrames as values
 
     for instal, df in dict_df.items():
         # Sort the DataFrame by the "Last log" column
