@@ -1,6 +1,6 @@
 # from insolAPI.WebAPI import API
 # import simplejson as json
-# import pandas as pd
+import pandas as pd
 import pendulum as pdl
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
@@ -43,9 +43,11 @@ def last_logs(dict_instal, list_sensor, api):
     unique_sensors = {}
     logs_joined_unique = {}
     last_log = {}
+    time_diff = {}
     for instal in dict_instal:
         # print(instal)
         unique_sensors[instal] = []
+        time_diff[instal] = {}
         for sensor_type in logs_joined[instal]:
             try:
                 unique_sensors[instal].extend(logs_joined[instal][sensor_type]["sensor_name"].unique())
@@ -63,8 +65,12 @@ def last_logs(dict_instal, list_sensor, api):
                 except :
                     pass
 
+
         for sensor in logs_joined_unique[instal]:
             logs_joined_unique[instal][sensor] = logs_joined_unique[instal][sensor].dropna(subset=[logs_joined_unique[instal][sensor].columns[1]])
+            time_difference = logs_joined_unique[instal][sensor].index.to_series().diff()
+            time_difference = time_difference[time_difference > pd.Timedelta(minutes=1)].sum()
+            time_diff[instal][sensor] = time_difference
 
         last_log[instal] = {}
         for sensor in dict_list_theoretical[instal]:
@@ -78,11 +84,31 @@ def last_logs(dict_instal, list_sensor, api):
             except:
                 pass
 
+    #make a df with the last log and the time difference for each sensor
+    dict_df = {}
+    for instal in last_log:
+        dict_df[instal] = pd.DataFrame.from_dict(last_log[instal], orient="index", columns=["Last log"])
+        dict_df[instal]["Time w/o logging (1w)"] = dict_df[instal].index.map(time_diff[instal])
+
     #sort the sensors by the last log
     for instal in last_log:
         last_log[instal] = {k: v for k, v in sorted(last_log[instal].items(), key=lambda item: item[1])}
 
-    for i in last_log:
-        print(i)
-        print(tabulate(last_log[i].items(), headers=["Sensor", "Last log"], tablefmt="psql"))
+    # for i in last_log:
+    #     print(i)
+    #     print(tabulate(last_log[i].items(), headers=["Sensor", "Last log"], tablefmt="psql"))
+    #     print("\n")
+
+
+
+
+# Assuming dict_df is a dictionary with installations as keys and DataFrames as values
+
+    for instal, df in dict_df.items():
+        # Sort the DataFrame by the "Last log" column
+        df_sorted = df.sort_values(by="Last log", ascending=True)
+
+        print(f"Installation: {instal}")
+        table = tabulate(df_sorted, headers="keys", tablefmt="psql", showindex=True)
+        print(table)
         print("\n")
