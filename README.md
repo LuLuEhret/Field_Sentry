@@ -14,7 +14,7 @@ The script must be run from within the environment `insolinsights`
 `pip install tqdm`  
 
 ### Change the path to the local json file 
-In the file `config/api_credits_path.json`, change the path to where is located the file named "local.json" (usually in the folder InsolReports/Scripts)
+In the `config/api_credits_path.json` file, change the path to where the "local.json" file is located (usually in the InsolReports/Scripts folder) so that the API can access the credits.
 
 ## How to run
 
