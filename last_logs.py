@@ -6,7 +6,17 @@ import warnings
 from tqdm import tqdm
 from tabulate import tabulate
 from pytz import timezone
+import numpy as np
 
+
+def print_progress_bar(percentage, length=10):
+    # print(percentage)
+    if np.isnan(percentage):
+        percentage = 1
+    block = int(round(length * percentage))
+    progress = "[" + "#" * block + "-" * (length - block) + "]"
+    # print(f"\r{progress}", end="", flush=True)
+    return progress
 
 
 def last_logs(dict_instal, list_sensor, api):
@@ -85,6 +95,7 @@ def last_logs(dict_instal, list_sensor, api):
     for instal in last_log:
         dict_df[instal] = pd.DataFrame.from_dict(last_log[instal], orient="index", columns=["Last log"])
         dict_df[instal]["Time offline (1w)"] = dict_df[instal].index.map(time_diff[instal])
+        dict_df[instal]["% offline"] = dict_df[instal]["Time offline (1w)"].apply(lambda x: print_progress_bar(x.total_seconds() / (7 * 24 * 60 * 60)))
 
     # #sort the sensors by the last log
     # for instal in last_log:
