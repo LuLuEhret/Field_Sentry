@@ -65,7 +65,7 @@ def last_logs(dict_instal, list_sensor, api):
         for sensor in logs_joined_unique[instal]:
             logs_joined_unique[instal][sensor] = logs_joined_unique[instal][sensor].dropna(subset=[logs_joined_unique[instal][sensor].columns[1]])
             time_difference = logs_joined_unique[instal][sensor].index.to_series().diff()
-            time_difference = time_difference[time_difference > pd.Timedelta(minutes=1)].sum()
+            time_difference = time_difference[time_difference > pd.Timedelta(minutes=2)].sum()
             time_diff[instal][sensor] = time_difference
 
         last_log[instal] = {}
