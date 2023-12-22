@@ -40,3 +40,7 @@ Open the file `"config/config.json"` and change the wind or high temperature lev
 	- The sensors are checked for the last 30 minutes. A sensor will be detected as faulty if it hasn't logged during the last half hour.
 	- The screens are checked for the last two days. If the state is "auto" then nothing is displayed. All other states are displayed.
 - After the main table you will be asked if you want to see the last log for each sensor. This will take about 1 minute to display. The result is displayed with one table per installation, one line per sensor, and the time of the last log if it is not up to date, and the time it has been offline for the last week. You have the choice to save these tables to an excel sheet. /!\ You might need to change the type of the columns to "Time" in excel to read properly the values.
+
+## Other notebooks
+
+The folder `notebooks` contains notebooks that could prove usefull to plot some more detailed informations. `historical_data.ipynb` generates the plot of the time offline per day on the last month. 
