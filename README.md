@@ -43,4 +43,5 @@ Open the file `"config/config.json"` and change the wind or high temperature lev
 
 ## Other notebooks
 
-The folder `notebooks` contains notebooks that could prove usefull to plot some more detailed informations. `historical_data.ipynb` generates the plot of the time offline per day on the last month. 
+The folder `notebooks` contains notebooks that could prove usefull to plot some more detailed informations. 
+- `historical_data.ipynb` generates the plot of the time offline per day on the last month. 
