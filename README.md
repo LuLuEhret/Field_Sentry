@@ -7,6 +7,7 @@ The script must be run from within the environment `insolinsights`
 ### Instal librairies
 
 `conda activate insolinsights`
+
 `pip install -r requirements.txt`
 
 ### Change the path to the local json file
