@@ -7,6 +7,7 @@ from tqdm import tqdm
 from tabulate import tabulate
 from pytz import timezone
 import numpy as np
+import datetime
 
 
 def print_progress_bar(percentage, length=10):
@@ -74,7 +75,14 @@ def last_logs(dict_instal, list_sensor, api):
 
         for sensor in logs_joined_unique[instal]:
             logs_joined_unique[instal][sensor] = logs_joined_unique[instal][sensor].dropna(subset=[logs_joined_unique[instal][sensor].columns[1]])
-            time_difference = logs_joined_unique[instal][sensor].index.to_series().diff()
+            time_serie = logs_joined_unique[instal][sensor].index.tz_localize(None)
+            now = pd.to_datetime(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+            now_serie = pd.Series(data=now, index=[now])
+            time_serie.to_series()
+            time_serie = pd.Series(time_serie)
+            series = [time_serie, now_serie]
+            time_series = pd.concat(series, ignore_index=True)
+            time_difference = time_series.diff()
             time_difference = time_difference[time_difference > pd.Timedelta(minutes=2)].sum()
             time_diff[instal][sensor] = time_difference
 
