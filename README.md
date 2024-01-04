@@ -35,13 +35,13 @@ Open the file `"config/config.json"` and add a new installation on the same temp
 Open the file `"config/config.json"` and change the wind or high temperature levels
 
 ## Outout of the script
-- The output table is directly reported in a text file named "output.txt" in the folder "reports"
+- The output table is directly reported in a text file named `output.txt` in the folder "reports"
 - The results of the main table are reported in a csv file named `log_reports.csv`, each time the script is executed. Go to the end of the file to see the last report.
 - The main table presents the report for the weather, the sensors and the screens, with one row per installation.
 	- The weather is checked for two days in the future.
 	- The sensors are checked for the last 30 minutes. A sensor will be detected as faulty if it hasn't logged during the last half hour.
 	- The screens are checked for the last two days. If the state is "auto" then nothing is displayed. All other states are displayed.
-- After the main table you will be asked if you want to see the last log for each sensor. This will take about 1 minute to display. The result is one table per installation, one line per sensor, and the time of the last log if it is not up to date, and the time it has been offline for the last week. You have the choice to save these tables to an excel sheet. /!\ You might need to change the type of the columns to "Time" in excel to read properly the values.
+- After the main table you will be asked if you want to see the last log for each sensor. This will take about 1 minute to display. The result is one table per installation, one line per sensor, and the time of the last log if it is not up to date, and the time it has been offline for the last week. 
 
 ## Other notebooks
 
