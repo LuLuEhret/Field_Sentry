@@ -35,7 +35,7 @@ Open the file `"config/config.json"` and add a new installation on the same temp
 Open the file `"config/config.json"` and change the wind or high temperature levels
 
 ## Outout of the script
-- The output table is directly reported in a text file named "output.txt" in the folder "reports"
+- The output table is directly reported in a text file named `output.txt` in the folder "reports"
 - The results of the main table are reported in a csv file named `log_reports.csv`, each time the script is executed. Go to the end of the file to see the last report.
 - The main table presents the report for the weather, the sensors and the screens, with one row per installation.
 	- The weather is checked for two days in the future.
