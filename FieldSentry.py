@@ -548,6 +548,9 @@ if __name__ == "__main__":
 
 
     print(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
+    text_file = open("reports/output.txt", "w")
+    text_file.write(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
+    text_file.close()
 
     show_last_log = input("\nDo you want to see the last log? (y/n) ")
     if show_last_log == "y":
