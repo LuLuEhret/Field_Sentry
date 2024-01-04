@@ -13,6 +13,7 @@ The script must be run from within the environment `insolinsights`
 ### Change the path to the local json file
 In the `config/api_credits_path.json` file, change the path to where the "local.json" file is located (usually in the InsolReports/Scripts folder) so that the API can access the credits.
 
+
 ## How to run
 
 - Double click on `FieldSentry.bat`. This will open a command prompt, and the result will be displayed here
@@ -34,6 +35,7 @@ Open the file `"config/config.json"` and add a new installation on the same temp
 Open the file `"config/config.json"` and change the wind or high temperature levels
 
 ## Outout of the script
+- The output table is directly reported in a text file named "output.txt" in the folder "reports"
 - The results of the main table are reported in a csv file named `log_reports.csv`, each time the script is executed. Go to the end of the file to see the last report.
 - The main table presents the report for the weather, the sensors and the screens, with one row per installation.
 	- The weather is checked for two days in the future.

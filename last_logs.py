@@ -89,7 +89,7 @@ def last_logs(dict_instal, list_sensor, api):
         last_log[instal] = {}
         for sensor in dict_list_theoretical[instal]:
             try:
-                last_log[instal][sensor] = logs_joined_unique[instal][sensor].index[-1]
+                last_log[instal][sensor] = logs_joined_unique[instal][sensor].index[-1].strftime("%Y-%m-%d %Hh%M")
             except:
                 last_log[instal][sensor] = "> 1 week"
             try:
@@ -119,10 +119,17 @@ def last_logs(dict_instal, list_sensor, api):
         print(table)
         print("\n")
 
-    saving = input("Save table to excel file? (y/n)")
-    if saving == "y":
-        writer = pd.ExcelWriter('reports/last_log.xlsx', engine='openpyxl')
-        for instal, df in dict_df.items():
-            df.to_excel(writer, sheet_name=instal)
-        writer.close()
-        print("File saved as 'last_log.xlsx'")
+        text_file = open("reports/output.txt", "a")
+        text_file.write(tabulate(df_sorted, headers="keys", tablefmt="psql", showindex=True))
+        text_file.write("\n\n")
+        text_file.close()
+
+    print("Report saved as 'output.txt'\nEnd of script\n")
+
+    # saving = input("Save table to excel file? (y/n)")
+    # if saving == "y":
+    #     writer = pd.ExcelWriter('reports/last_log.xlsx', engine='openpyxl')
+    #     for instal, df in dict_df.items():
+    #         df.to_excel(writer, sheet_name=instal)
+    #     writer.close()
+    #     print("File saved as 'last_log.xlsx'")
