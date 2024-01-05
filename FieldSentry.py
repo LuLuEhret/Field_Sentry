@@ -549,7 +549,7 @@ if __name__ == "__main__":
 
     print(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
     text_file = open("reports/output.txt", "w")
-    text_file.write(str(pdl.now().strftime("%Y-%m-%d %Hh%M")) + "\n\n")
+    text_file.write(str(pdl.now().strftime("%d-%m-%Y %Hh%M")) + "\n\n")
     text_file.write(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
     text_file.write("\n\n")
     text_file.close()

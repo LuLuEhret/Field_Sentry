@@ -93,7 +93,7 @@ def last_logs(dict_instal, list_sensor, api):
             except:
                 last_log[instal][sensor] = "> 1 week"
             try:
-                if last_log[instal][sensor] > pdl.now().subtract(minutes=10):
+                if logs_joined_unique[instal][sensor].index[-1] > pdl.now().subtract(minutes=10):
                     last_log[instal][sensor] = "Online"
             except:
                 pass
