@@ -89,8 +89,12 @@ def format_timestamps_in_dict(input_dict):
     for key, sub_dict in input_dict.items():
         formatted_dict[key] = {}
         for event, timestamps in sub_dict.items():
-            formatted_timestamps = [format_timestamp(ts) for ts in timestamps]
-            formatted_dict[key][event] = formatted_timestamps
+            try:
+                formatted_timestamps = [format_timestamp(ts) for ts in timestamps]
+                formatted_dict[key][event] = formatted_timestamps
+            except:
+                formatted_dict[key][event] = timestamps
+                pass
     return formatted_dict
 
 
@@ -403,6 +407,8 @@ if __name__ == "__main__":
         list_highT_time = []
         dict_df_screen = {}
         list_screen_states = []
+        diff_logs[instal] = []
+        dict_screen_states[instal] = []
 
 
         # get the weather forecast for each installation
@@ -422,6 +428,8 @@ if __name__ == "__main__":
                 list_highT_time.append(dict_alerts[instal][i + 1])
                 dict_alert_time[instal]["High temperature"] = dict_alerts[instal][i + 1]
 
+        if dict_instal_json[instal]["id"] == 'xx':
+            continue
 
         #screen data
         if dict_instal_json[instal]["has_a_screen"]:
@@ -546,7 +554,12 @@ if __name__ == "__main__":
     if len(no_weather_data) > 0:
         print(no_weather_data + loc_no_weather[:-2] + "\n")
 
+    for instal in dict_instal_json:
+        if dict_instal_json[instal]["id"] == "xx":
+            name = dict_instal_json[instal]["name"]
+            print(f"\n⚠️ {name} has no attributed ID\n")
 
+    print(str(pdl.now().strftime("%Y-%m-%d %Hh%M")) + "\n")
     print(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
     text_file = open("reports/output.txt", "w")
     text_file.write(str(pdl.now().strftime("%d-%m-%Y %Hh%M")) + "\n\n")
@@ -558,4 +571,4 @@ if __name__ == "__main__":
     if show_last_log == "y":
         ll.last_logs(dict_instal_json, list_sensor, api)
     else:
-        print("\nExiting...")
+        print("\nExiting...\n")

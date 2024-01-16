@@ -30,7 +30,7 @@
       "high_temperature_threshold": 33,
       "has_a_screen": true
     },
-	{
+	  {
       "name": "Etchelecu",
       "id": 26,
       "latitude": 43.5208,
@@ -38,6 +38,15 @@
       "wind_threshold": 7,
       "high_temperature_threshold": 33,
       "has_a_screen": true
+    },
+  	{
+      "name": "Qair",
+      "id": "xx",
+      "latitude": 44.1875037033644,
+      "longitude": 4.804713167824108,
+      "wind_threshold": 7,
+      "high_temperature_threshold": 33,
+      "has_a_screen": false
     }
   ]
 }

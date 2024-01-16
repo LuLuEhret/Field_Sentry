@@ -38,6 +38,8 @@ def last_logs(dict_instal, list_sensor, api):
         logs_joined[instal] = {}
         dict_list_theoretical[instal] = []
         sensor_number = 0
+        if dict_instal[instal]["id"] == "xx":
+            continue
         for sensor_type in api.SensorsTypes:
             if str(sensor_type).split(".")[1] in list_sensor:
                 with warnings.catch_warnings():

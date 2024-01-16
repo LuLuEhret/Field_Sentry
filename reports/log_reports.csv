@@ -604,3 +604,102 @@ screen_zone6: Emergency"
 14:58:54 05-01-2024,Bioschmid,,,"15h 06-01-2024, 21h 06-01-2024, 00h 07-01-2024, 03h 07-01-2024, 06h 07-01-2024, 09h 07-01-2024, 12h 07-01-2024, 15h 07-01-2024, 18h 07-01-2024, 21h 07-01-2024, 00h 08-01-2024",,,No logs for 2d+
 14:58:54 05-01-2024,Etchelecu,,,,,,No logs for 2d+
 
+08:41:56 08-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","18h 09-01-2024, 21h 09-01-2024, 00h 10-01-2024",,,
+08:41:56 08-01-2024,Agroscope Berries,,,"18h 09-01-2024, 21h 09-01-2024, 00h 10-01-2024",,,No logs for 2d+
+08:41:56 08-01-2024,Bioschmid,86,WIND02_EXT,"09h 08-01-2024, 12h 08-01-2024, 15h 08-01-2024, 18h 08-01-2024, 21h 08-01-2024, 00h 09-01-2024, 03h 09-01-2024, 06h 09-01-2024, 03h 10-01-2024",,,No logs for 2d+
+08:41:56 08-01-2024,Etchelecu,,,09h 10-01-2024,,,No logs for 2d+
+
+10:26:23 08-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","18h 09-01-2024, 21h 09-01-2024, 00h 10-01-2024",,,
+10:26:23 08-01-2024,Agroscope Berries,,,"18h 09-01-2024, 21h 09-01-2024, 00h 10-01-2024",,,No logs for 2d+
+10:26:23 08-01-2024,Bioschmid,86,WIND02_EXT,"12h 08-01-2024, 15h 08-01-2024, 18h 08-01-2024, 21h 08-01-2024, 00h 09-01-2024, 03h 09-01-2024, 06h 09-01-2024, 03h 10-01-2024",,,No logs for 2d+
+10:26:23 08-01-2024,Etchelecu,,,09h 10-01-2024,,,No logs for 2d+
+
+15:10:16 08-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","18h 09-01-2024, 21h 09-01-2024, 00h 10-01-2024",,,
+15:10:16 08-01-2024,Agroscope Berries,,,"18h 09-01-2024, 21h 09-01-2024, 00h 10-01-2024",,,No logs for 2d+
+15:10:16 08-01-2024,Bioschmid,86,WIND02_EXT,"15h 08-01-2024, 18h 08-01-2024, 21h 08-01-2024, 00h 09-01-2024, 03h 09-01-2024, 00h 10-01-2024, 03h 10-01-2024",,,No logs for 2d+
+15:10:16 08-01-2024,Etchelecu,,,09h 10-01-2024,,,No logs for 2d+
+
+16:29:42 08-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","18h 09-01-2024, 21h 09-01-2024, 00h 10-01-2024",,,
+16:29:42 08-01-2024,Agroscope Berries,,,"18h 09-01-2024, 21h 09-01-2024, 00h 10-01-2024",,,No logs for 2d+
+16:29:42 08-01-2024,Bioschmid,86,WIND02_EXT,"18h 08-01-2024, 21h 08-01-2024, 00h 09-01-2024, 03h 09-01-2024, 00h 10-01-2024, 03h 10-01-2024",,,No logs for 2d+
+16:29:42 08-01-2024,Etchelecu,,,09h 10-01-2024,,,No logs for 2d+
+
+13:43:36 09-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","18h 09-01-2024, 21h 09-01-2024",,,
+13:43:36 09-01-2024,Agroscope Berries,,,"18h 09-01-2024, 21h 09-01-2024",,,No logs for 2d+
+13:43:36 09-01-2024,Bioschmid,86,WIND02_EXT,,,,No logs for 2d+
+13:43:36 09-01-2024,Etchelecu,"43, 44, 71, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,,,No logs for 2d+
+
+08:48:44 10-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain",,,,
+08:48:44 10-01-2024,Agroscope Berries,,,,,,No logs for 2d+
+08:48:44 10-01-2024,Bioschmid,,,,,,No logs for 2d+
+08:48:44 10-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,,,No logs for 2d+
+
+15:00:45 10-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain",,,,
+15:00:45 10-01-2024,Agroscope Berries,,,,,,No logs for 2d+
+15:00:45 10-01-2024,Bioschmid,,,,,,No logs for 2d+
+15:00:45 10-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,,,No logs for 2d+
+
+10:43:16 12-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain",,,,
+10:43:16 12-01-2024,Agroscope Berries,,,,,,No logs for 2d+
+10:43:16 12-01-2024,Bioschmid,86,WIND02_EXT,,,,No logs for 2d+
+10:43:16 12-01-2024,Etchelecu,"43, 44, 71, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,,,No logs for 2d+
+
+08:52:15 16-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain",,,,
+08:52:15 16-01-2024,Agroscope Berries,,,,,,No logs for 2d+
+08:52:15 16-01-2024,Bioschmid,,,"06h 17-01-2024, 15h 18-01-2024, 18h 18-01-2024",12h 18-01-2024,,No logs for 2d+
+08:52:15 16-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,18h 17-01-2024,,No logs for 2d+
+
+09:06:55 16-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain",,,,
+09:06:55 16-01-2024,Agroscope Berries,,,,,,No logs for 2d+
+09:06:55 16-01-2024,Bioschmid,,,"06h 17-01-2024, 15h 18-01-2024, 18h 18-01-2024",12h 18-01-2024,,No logs for 2d+
+09:06:55 16-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,18h 17-01-2024,,No logs for 2d+
+09:06:55 16-01-2024,Qair,,,,,,
+
+15:46:04 16-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","21h 18-01-2024, 00h 19-01-2024",,,
+15:46:04 16-01-2024,Agroscope Berries,,,"21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+15:46:04 16-01-2024,Bioschmid,,,"06h 17-01-2024, 15h 18-01-2024, 18h 18-01-2024, 21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+15:46:04 16-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,"18h 17-01-2024, 00h 18-01-2024, 03h 18-01-2024, 06h 18-01-2024",,No logs for 2d+
+15:46:04 16-01-2024,Qair,,,,"21h 18-01-2024, 00h 19-01-2024",,
+
+15:55:51 16-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","21h 18-01-2024, 00h 19-01-2024",,,
+15:55:51 16-01-2024,Agroscope Berries,,,"21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+15:55:51 16-01-2024,Bioschmid,,,"06h 17-01-2024, 15h 18-01-2024, 18h 18-01-2024, 21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+15:55:51 16-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,"18h 17-01-2024, 00h 18-01-2024, 03h 18-01-2024, 06h 18-01-2024",,No logs for 2d+
+15:55:51 16-01-2024,Qair,,,,"21h 18-01-2024, 00h 19-01-2024",,
+
+15:59:08 16-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","21h 18-01-2024, 00h 19-01-2024",,,
+15:59:08 16-01-2024,Agroscope Berries,,,"21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+15:59:08 16-01-2024,Bioschmid,,,"06h 17-01-2024, 15h 18-01-2024, 18h 18-01-2024, 21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+15:59:08 16-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,"18h 17-01-2024, 00h 18-01-2024, 03h 18-01-2024, 06h 18-01-2024",,No logs for 2d+
+15:59:08 16-01-2024,Qair,,,,"21h 18-01-2024, 00h 19-01-2024",,
+
+16:11:37 16-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,,
+16:11:37 16-01-2024,Agroscope Berries,,,"21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,,No logs for 2d+
+16:11:37 16-01-2024,Bioschmid,,,"06h 17-01-2024, 15h 18-01-2024, 18h 18-01-2024, 21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+16:11:37 16-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,"18h 17-01-2024, 00h 18-01-2024, 03h 18-01-2024, 06h 18-01-2024",,No logs for 2d+
+16:11:37 16-01-2024,Qair,,,,"21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,
+
+16:18:08 16-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,,
+16:18:08 16-01-2024,Agroscope Berries,,,"21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,,No logs for 2d+
+16:18:08 16-01-2024,Bioschmid,,,"06h 17-01-2024, 15h 18-01-2024, 18h 18-01-2024, 21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+16:18:08 16-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,"18h 17-01-2024, 00h 18-01-2024, 03h 18-01-2024, 06h 18-01-2024",,No logs for 2d+
+16:18:08 16-01-2024,Qair,,,,"21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,
+
+16:18:15 16-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,,
+16:18:15 16-01-2024,Agroscope Berries,,,"21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,,No logs for 2d+
+16:18:15 16-01-2024,Bioschmid,,,"06h 17-01-2024, 15h 18-01-2024, 18h 18-01-2024, 21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+16:18:15 16-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,"18h 17-01-2024, 00h 18-01-2024, 03h 18-01-2024, 06h 18-01-2024",,No logs for 2d+
+16:18:15 16-01-2024,Qair,,,,"21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,
+
+16:18:23 16-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,,
+16:18:23 16-01-2024,Agroscope Berries,,,"21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,,No logs for 2d+
+16:18:23 16-01-2024,Bioschmid,,,"06h 17-01-2024, 15h 18-01-2024, 18h 18-01-2024, 21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+16:18:23 16-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,"18h 17-01-2024, 00h 18-01-2024, 03h 18-01-2024, 06h 18-01-2024",,No logs for 2d+
+16:18:23 16-01-2024,Qair,,,,"21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,
+
+16:31:38 16-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain","21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,,
+16:31:38 16-01-2024,Agroscope Berries,,,"21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,,No logs for 2d+
+16:31:38 16-01-2024,Bioschmid,,,"06h 17-01-2024, 15h 18-01-2024, 18h 18-01-2024, 21h 18-01-2024, 00h 19-01-2024",,,No logs for 2d+
+16:31:38 16-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,"18h 17-01-2024, 00h 18-01-2024, 03h 18-01-2024, 06h 18-01-2024",,No logs for 2d+
+16:31:38 16-01-2024,Qair,,,,"21h 18-01-2024, 00h 19-01-2024, 03h 19-01-2024",,
+
