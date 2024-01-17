@@ -13,6 +13,7 @@ import sys
 from tabulate import tabulate
 from pytz import timezone
 import last_logs as ll
+import getpass
 
 
 SHOW_PLOT = False
@@ -559,13 +560,16 @@ if __name__ == "__main__":
             name = dict_instal_json[instal]["name"]
             print(f"\n⚠️ {name} has no attributed ID\n")
 
-    print(str(pdl.now().strftime("%Y-%m-%d %Hh%M")) + "\n")
+    try:
+        username = getpass.getuser()
+    except:
+        username = "xx"
+    print(str(pdl.now().strftime("%Y-%m-%d %Hh%M")) + f" - 👤 {getpass.getuser()}" +"\n")
     print(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
-    text_file = open("reports/output.txt", "w")
-    text_file.write(str(pdl.now().strftime("%d-%m-%Y %Hh%M")) + "\n\n")
-    text_file.write(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
-    text_file.write("\n\n")
-    text_file.close()
+    with open("reports/output.txt", "w", encoding="utf-8") as text_file:
+        text_file.write(str(pdl.now().strftime("%Y-%m-%d %Hh%M")) + f" - 👤 {getpass.getuser()}" +"\n\n")
+        text_file.write(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
+        text_file.write("\n\n")
 
     show_last_log = input("\nDo you want to see the last log? (y/n) ")
     if show_last_log == "y":

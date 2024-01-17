@@ -121,10 +121,10 @@ def last_logs(dict_instal, list_sensor, api):
         print(table)
         print("\n")
 
-        text_file = open("reports/output.txt", "a")
-        text_file.write(tabulate(df_sorted, headers="keys", tablefmt="psql", showindex=True))
-        text_file.write("\n\n")
-        text_file.close()
+        with open("reports/output.txt", "a", encoding="utf-8") as text_file:
+            text_file.write(f"{instal}\n")
+            text_file.write(tabulate(df_sorted, headers="keys", tablefmt="psql", showindex=True))
+            text_file.write("\n\n")
 
     print("Report saved as 'output.txt'\nEnd of script\n")
 
