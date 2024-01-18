@@ -75,18 +75,23 @@ def last_logs(dict_instal, list_sensor, api):
                     pass
 
 
-        for sensor in logs_joined_unique[instal]:
-            logs_joined_unique[instal][sensor] = logs_joined_unique[instal][sensor].dropna(subset=[logs_joined_unique[instal][sensor].columns[1]])
-            time_serie = logs_joined_unique[instal][sensor].index.tz_localize(None)
-            now = pd.to_datetime(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-            now_serie = pd.Series(data=now, index=[now])
-            time_serie.to_series()
-            time_serie = pd.Series(time_serie)
-            series = [time_serie, now_serie]
-            time_series = pd.concat(series, ignore_index=True)
-            time_difference = time_series.diff()
-            time_difference = time_difference[time_difference > pd.Timedelta(minutes=2)].sum()
-            time_diff[instal][sensor] = time_difference
+        for sensor in dict_list_theoretical[instal]:
+            try:
+                logs_joined_unique[instal][sensor] = logs_joined_unique[instal][sensor].dropna(subset=[logs_joined_unique[instal][sensor].columns[1]])
+                time_serie = logs_joined_unique[instal][sensor].index.tz_localize(None)
+                now = pd.to_datetime(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+                now_serie = pd.Series(data=now, index=[now])
+
+                time_serie.to_series()
+                time_serie = pd.Series(time_serie)
+
+                series = [time_serie, now_serie]
+                time_series = pd.concat(series, ignore_index=True)
+                time_difference = time_series.diff()
+                time_difference = time_difference[time_difference > pd.Timedelta(minutes=2)].sum()
+                time_diff[instal][sensor] = time_difference
+            except:
+                time_diff[instal][sensor] = pd.NaT
 
         last_log[instal] = {}
         for sensor in dict_list_theoretical[instal]:
@@ -105,7 +110,10 @@ def last_logs(dict_instal, list_sensor, api):
     for instal in last_log:
         dict_df[instal] = pd.DataFrame.from_dict(last_log[instal], orient="index", columns=["Last log"])
         dict_df[instal]["Time offline (1w)"] = dict_df[instal].index.map(time_diff[instal])
-        dict_df[instal]["% offline"] = dict_df[instal]["Time offline (1w)"].apply(lambda x: print_progress_bar(x.total_seconds() / (7 * 24 * 60 * 60)))
+        try:
+            dict_df[instal]["% offline"] = dict_df[instal]["Time offline (1w)"].apply(lambda x: print_progress_bar(x.total_seconds() / (7 * 24 * 60 * 60)))
+        except:
+            pass
 
     # #sort the sensors by the last log
     # for instal in last_log:
