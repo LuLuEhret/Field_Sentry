@@ -8,16 +8,21 @@ import warnings
 import requests
 import plotly.graph_objects as go
 import os
-import datetime
+# import datetime
 import sys
 from tabulate import tabulate
 from pytz import timezone
-import last_logs as ll
+import numpy as np
+import pytz
 import getpass
 import datetime as dt
+from dateutil import parser
+from datetime import datetime, timedelta
+import last_logs as ll
 
 
 SHOW_PLOT = False
+CUSTOM_DATE = sys.argv[1] if len(sys.argv) > 1 else False
 
 
 list_sensor = [
@@ -80,7 +85,7 @@ def read_json_config():
 
 
 def format_timestamp(original_timestamp_str):
-    original_timestamp = datetime.datetime.strptime(original_timestamp_str, '%Y-%m-%d %H:%M:%S')
+    original_timestamp = datetime.strptime(original_timestamp_str, '%Y-%m-%d %H:%M:%S')
     formatted_timestamp_str = original_timestamp.strftime('%Hh %d-%m-%Y')
     return formatted_timestamp_str
 
@@ -115,7 +120,7 @@ def get_weather_forecast(dict_instal, api_data, city_name):
         response.raise_for_status()
         data = response.json()
 
-        update_request_count()
+        # update_request_count()
         return data
 
     except Exception as ex:
@@ -277,11 +282,11 @@ def update_request_count():
             else:
                 count = 1
             # add the number of requests made during the last hour
-            last_hour = datetime.datetime.now() - datetime.timedelta(hours=1)
+            last_hour = datetime.now() - datetime.timedelta(hours=1)
             count_last_hour = 1
             for line in lines:
                 if (
-                    datetime.datetime.strptime(
+                    datetime.strptime(
                         line.split(",")[4].strip(), "%Y-%m-%d %H:%M:%S"
                     )
                     >= last_hour
@@ -292,7 +297,7 @@ def update_request_count():
         count = 1
         count_last_hour = 1
 
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     with open(file_name, "a") as file:
         file.write(f"Total,{count},last hour,{count_last_hour},{timestamp}\n")
@@ -303,7 +308,7 @@ def save_alerts_to_csv(df):
     """
     update the csv file with the alerts
     """
-    df['Timestamp'] = datetime.datetime.now().strftime('%H:%M:%S %d-%m-%Y')
+    df['Timestamp'] = datetime.now().strftime('%H:%M:%S %d-%m-%Y')
 
     #replace \n with a ","
     df = df.replace('\n', ', ', regex=True)
@@ -351,6 +356,64 @@ def process_screen_data(df):
     return list_states
 
 
+
+def time_args_definition(start_date, stop_date):
+    time_args_def = dict(
+    start=str(start_date),
+    stop=str(stop_date),
+    timezone=timezone('Europe/Zurich'),
+    )
+    return time_args_def
+
+
+
+def validate_date(date_str):
+    #1st split the date string into year, month and day
+    #convert date_parts and time_parts into integers
+    try:
+        res = bool(parser.parse(date_str))
+    except ValueError:
+        res = False
+    return res
+
+
+
+def ask_for_datetime(date_input, show_details = False, deltaT_days=0, deltaT_hours=0, deltaT_minutes=30):
+    # Prompt user to enter a date
+    # date_input = input("Enter a date (yyyy-mm-dd HH:MM): ")
+
+    # Validate the date format
+    if validate_date(date_input):
+        #convert date_input into datetime object
+        date_obj = parser.parse(date_input)
+        if date_obj <= datetime.now():
+            if date_obj.year >= 2022:
+                if show_details: print(f"start date is: {date_obj}")
+                # add 30min  to the date
+                new_date = date_obj + timedelta(days=deltaT_days,hours=deltaT_hours, minutes=deltaT_minutes)
+                if new_date <= datetime.now():
+                    if show_details: print(f"Stop date is: {new_date}")
+                    time_args_temp = time_args_definition(date_obj, new_date)
+                    return time_args_temp
+                else:
+                    print("The stop date is in the future")
+                    input_date = input("Enter a date (yyyy-mm-dd HH:MM): ")
+                    return ask_for_datetime(input_date)
+            else:
+                print("The year should be greater than 2022")
+                input_date = input("Enter a date (yyyy-mm-dd HH:MM): ")
+                return ask_for_datetime(input_date)
+        else:
+            print("The start date is in the future")
+            input_date = input("Enter a date (yyyy-mm-dd HH:MM): ")
+            return ask_for_datetime(input_date)
+    else:
+        print("Invalid date format. Please enter date in yyyy-mm-dd HH:MM format.")
+        input_date = input("Enter a date (yyyy-mm-dd HH:MM): ")
+        return ask_for_datetime(input_date)
+
+
+
 if __name__ == "__main__":
     try:
         with open("config/api_credits_path.json") as f:
@@ -369,16 +432,21 @@ if __name__ == "__main__":
         sys.stdout.flush()
         sys.exit(0)
 
-    time_args = dict(
-    start=pdl.now().subtract(days=0, hours=0, minutes=30).to_datetime_string(),
-    stop=pdl.now().subtract(days=0, hours=0).to_datetime_string(),
-    timezone=timezone('Europe/Zurich'),
-    )
-    time_args_screens = dict(
-        start=pdl.now().subtract(days=2, hours=2, minutes=30).to_datetime_string(),
-        stop=pdl.now().subtract(days=0, hours=2).to_datetime_string(),
-        timezone=timezone('Europe/Zurich'),
-    )
+    if CUSTOM_DATE:
+        date_input = input("Enter a date (yyyy-mm-dd HH:MM): ")
+        time_args = ask_for_datetime(date_input, True)
+        time_args_screens = ask_for_datetime(date_input, False, 2, 0, 0)
+    else:
+        time_args = dict(
+            start=pdl.now().subtract(days=0, hours=0, minutes=30).to_datetime_string(),
+            stop=pdl.now().subtract(days=0, hours=0).to_datetime_string(),
+            timezone=timezone('Europe/Zurich'),
+        )
+        time_args_screens = dict(
+            start=pdl.now().subtract(days=2, hours=0, minutes=0).to_datetime_string(),
+            stop=pdl.now().subtract(days=0, hours=0).to_datetime_string(),
+            timezone=timezone('Europe/Zurich'),
+        )
 
     # declarations of the dictionaries
     dict_instal_json, api_data = read_json_config()
@@ -514,11 +582,11 @@ if __name__ == "__main__":
     with open(installation_path + "local.json") as f:
         local_data = json.load(f)
 
+    api_razon = API(local_data["API_user"], local_data["API_pwd"], dev_space=False, install=9)
     with warnings.catch_warnings():
-        print("Downloading Razon logs...")
         warnings.simplefilter("ignore", category=UserWarning)
-        api_razon = API(local_data["API_user"], local_data["API_pwd"], dev_space=False, install=9)
-        df_razon = api_razon.get_sensors_csv(start=(dt.date.today()))
+        start_time = dt.datetime.now() - dt.timedelta(hours=2)
+        df_razon = api_razon.get_sensors_csv(start=start_time)
 
 
     df_missing_sensors = pd.DataFrame.from_dict(
@@ -557,21 +625,18 @@ if __name__ == "__main__":
             continue
         df_report_string[col] = df_report_string[col].apply(list_to_string)
 
-        # add the Razon to the report
+    # add the Razon to the report
     if len(df_razon[df_razon["Identifier"] == "1_1"]):
-        # print("Razon has been logging")
         last_log_razon = df_razon[df_razon["Identifier"] == "1_1"].index[-1]
         now_timestamp = pd.Timestamp.now(tz="UTC")
         time_diff_razon = now_timestamp - last_log_razon
-        # print(f"Time since last log: {time_diff_razon}")
         if time_diff_razon > pd.Timedelta(minutes=20):
-            # time_diff_razon.strftime("%d %H:%M:%S")
             time_diff_razon = time_diff_razon.floor("T")
             df_report_string.loc[len(df_report)] = ["Pre-Serie", "1_1", f"Razon_GHI: {time_diff_razon}", "", "", "", ""]
         else:
             df_report_string.loc[len(df_report)] = ["Pre-Serie", "", "", "", "", "", ""]
     else:
-        df_report_string.loc[len(df_report)] = ["Pre-Serie", "1_1", "Razon_GHI: No logs for > 1d", "", "", "", ""]
+        df_report_string.loc[len(df_report)] = ["Pre-Serie", "1_1", "Razon_GHI: No logs for > 2h", "", "", "", ""]
 
 
     save_alerts_to_csv(df_report_string.copy())
@@ -588,16 +653,21 @@ if __name__ == "__main__":
     for instal in dict_instal_json:
         if dict_instal_json[instal]["id"] == "xx":
             name = dict_instal_json[instal]["name"]
-            print(f"\n⚠️ {name} has no attributed ID\n")
+            print(f"\n⚠️ {name} has no ID, please edit the config.json file ⚠️\n")
 
     try:
-        username = getpass.getuser()
+        USERNAME = getpass.getuser()
     except:
-        username = "xx"
-    print(str(pdl.now().strftime("%Y-%m-%d %Hh%M")) + f" - 👤 {getpass.getuser()}" +"\n")
+        USERNAME = "unknown"
+
+    if CUSTOM_DATE:
+        print(f"📅 {time_args['start']} -> {time_args['stop']}\n")
+        print("⚠️ Weather logs are not up to date ⚠️")
+    else:
+        print(str("📅 " + pdl.now().strftime("%Y-%m-%d %Hh%M")) + f" - 👤 {USERNAME}" +"\n")
     print(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
     with open("reports/output.txt", "w", encoding="utf-8") as text_file:
-        text_file.write(str(pdl.now().strftime("%Y-%m-%d %Hh%M")) + f" - 👤 {getpass.getuser()}" +"\n\n")
+        text_file.write(str(pdl.now().strftime("%Y-%m-%d %Hh%M")) + f" - 👤 {USERNAME}" +"\n\n")
         text_file.write(tabulate(df_report_string, headers="keys", tablefmt="grid", showindex=False))
         text_file.write("\n\n")
 
