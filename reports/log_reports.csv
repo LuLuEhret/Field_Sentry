@@ -803,3 +803,343 @@ screen_zone6: Emergency"
 11:09:08 18-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,,,No logs for 2d+
 11:09:08 18-01-2024,Qair,,,,"00h 19-01-2024, 03h 19-01-2024, 06h 19-01-2024, 09h 19-01-2024, 12h 19-01-2024, 15h 19-01-2024, 18h 19-01-2024, 21h 19-01-2024, 00h 20-01-2024, 03h 20-01-2024, 06h 20-01-2024, 09h 20-01-2024, 12h 20-01-2024",,
 
+09:52:33 24-01-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain",,,,
+09:52:33 24-01-2024,Agroscope Berries,,,,,,No logs for 2d+
+09:52:33 24-01-2024,Bioschmid,,,,"09h 24-01-2024, 12h 24-01-2024, 15h 24-01-2024",,No logs for 2d+
+09:52:33 24-01-2024,Etchelecu,"43, 44, 71, 86, 13, 14, 15, 16, 11, 12, 41, 42, 100, 45, 46, 17, 18, 81","TRH_top_Insolagrin, TRH_bottom_Insolagrin, WIND01_EXT, WIND02_EXT, PAR01_Insolagrin, PAR02_Insolagrin, PAR03_Insolagrin, PAR04_Insolagrin, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, GHI_01_EXT, TRH_top_control, TRH_bottom_control, PAR01_control, PAR02_control, RAIN_EXT",,,,No logs for 2d+
+09:52:33 24-01-2024,Qair,,,,"15h 24-01-2024, 06h 25-01-2024, 09h 25-01-2024, 12h 25-01-2024, 15h 25-01-2024, 12h 26-01-2024, 15h 26-01-2024, 18h 26-01-2024",,
+
+13:49:46 01-02-2024,Agroscope Series,"130, 116","leaf_temp_FS1, rain",,,,
+13:49:46 01-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,No logs for 2d+
+13:49:46 01-02-2024,Bioschmid,,,,,,No logs for 2d+
+13:49:46 01-02-2024,Etchelecu,,,,,,main_screen: Emergency
+13:49:46 01-02-2024,Qair,,,,"15h 01-02-2024, 18h 01-02-2024, 21h 01-02-2024, 00h 02-02-2024, 03h 02-02-2024, 06h 02-02-2024, 09h 02-02-2024, 12h 02-02-2024, 15h 02-02-2024, 09h 04-02-2024, 12h 04-02-2024, 15h 04-02-2024, 21h 04-02-2024, 03h 05-02-2024, 06h 05-02-2024, 09h 05-02-2024, 12h 05-02-2024, 15h 05-02-2024",,
+
+11:32:54 05-02-2024,Agroscope Series,,,,,,
+11:32:54 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,No logs for 2d+
+11:32:54 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+11:32:54 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+11:32:54 05-02-2024,Qair,,,,,,
+
+11:40:36 05-02-2024,Agroscope Series,,,,,,
+11:40:36 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,No logs for 2d+
+11:40:36 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+11:40:36 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+11:40:36 05-02-2024,Qair,,,,,,
+11:40:36 05-02-2024,Pre-Serie,,,,,,
+
+11:53:08 05-02-2024,Agroscope Series,,,,,,
+11:53:08 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,No logs for 2d+
+11:53:08 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+11:53:08 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+11:53:08 05-02-2024,Qair,,,,,,
+11:53:08 05-02-2024,Pre-Serie,,,,,,
+
+11:53:53 05-02-2024,Agroscope Series,,,,,,
+11:53:53 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,No logs for 2d+
+11:53:53 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+11:53:53 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+11:53:53 05-02-2024,Qair,,,,,,
+11:53:53 05-02-2024,Pre-Serie,"1, _, 1","R, a, z, o, n, _, G, H, I",,,,
+
+11:54:46 05-02-2024,Agroscope Series,,,,,,
+11:54:46 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,No logs for 2d+
+11:54:46 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+11:54:46 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+11:54:46 05-02-2024,Qair,,,,,,
+11:54:46 05-02-2024,Pre-Serie,1_1,Razon_GHI,,,,
+
+11:55:04 05-02-2024,Agroscope Series,,,,,,
+11:55:04 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,No logs for 2d+
+11:55:04 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+11:55:04 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+11:55:04 05-02-2024,Qair,,,,,,
+11:55:04 05-02-2024,Pre-Serie,,,,,,
+
+11:56:55 05-02-2024,Agroscope Series,,,,,,
+11:56:55 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+11:56:55 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+11:56:55 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+11:56:55 05-02-2024,Qair,,,,,,
+11:56:55 05-02-2024,Pre-Serie,,,,,,
+
+11:59:04 05-02-2024,Agroscope Series,,,,,,
+11:59:04 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+11:59:04 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+11:59:04 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+11:59:04 05-02-2024,Qair,,,,,,
+11:59:04 05-02-2024,Pre-Serie,,,,,,
+
+11:59:11 05-02-2024,Agroscope Series,,,,,,
+11:59:11 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+11:59:11 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+11:59:11 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+11:59:11 05-02-2024,Qair,,,,,,
+11:59:11 05-02-2024,Pre-Serie,1_1,Razon_GHI 0 days 00:03:11.945153,,,,
+
+12:00:06 05-02-2024,Agroscope Series,,,,,,
+12:00:06 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+12:00:06 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+12:00:06 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+12:00:06 05-02-2024,Qair,,,,,,
+12:00:06 05-02-2024,Pre-Serie,1_1,Razon_GHI: 0 days 00:04:06.630481,,,,
+
+12:02:56 05-02-2024,Agroscope Series,,,,,,
+12:02:56 05-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+12:02:56 05-02-2024,Bioschmid,,,,21h 07-02-2024,,No logs for 2d+
+12:02:56 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+12:02:56 05-02-2024,Qair,,,,,,
+12:02:56 05-02-2024,Pre-Serie,1_1,Razon_GHI: 0 days 00:06:00,,,,
+
+13:14:12 05-02-2024,Agroscope Series,,,,,,
+13:14:12 05-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+13:14:12 05-02-2024,Bioschmid,,,,,,No logs for 2d+
+13:14:12 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+13:14:12 05-02-2024,Qair,,,,,,
+13:14:12 05-02-2024,Pre-Serie,,,,,,
+
+13:19:20 05-02-2024,Agroscope Series,,,,,,
+13:19:20 05-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+13:19:20 05-02-2024,Bioschmid,,,,,,No logs for 2d+
+13:19:20 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+13:19:20 05-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 21h 09-02-2024, 00h 10-02-2024, 03h 10-02-2024, 06h 10-02-2024, 09h 10-02-2024, 12h 10-02-2024",,
+13:19:20 05-02-2024,Pre-Serie,,,,,,
+
+13:20:18 05-02-2024,Agroscope Series,,,,,,
+13:20:18 05-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+13:20:18 05-02-2024,Bioschmid,,,,,,No logs for 2d+
+13:20:18 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+13:20:18 05-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 21h 09-02-2024, 00h 10-02-2024, 03h 10-02-2024, 06h 10-02-2024, 09h 10-02-2024, 12h 10-02-2024",,
+13:20:18 05-02-2024,Pre-Serie,,,,,,
+
+13:21:05 05-02-2024,Agroscope Series,,,,,,
+13:21:05 05-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+13:21:05 05-02-2024,Bioschmid,,,,,,No logs for 2d+
+13:21:05 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+13:21:05 05-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 21h 09-02-2024, 00h 10-02-2024, 03h 10-02-2024, 06h 10-02-2024, 09h 10-02-2024, 12h 10-02-2024",,
+13:21:05 05-02-2024,Pre-Serie,,,,,,
+
+13:22:53 05-02-2024,Agroscope Series,,,,,,
+13:22:53 05-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+13:22:53 05-02-2024,Bioschmid,,,,,,No logs for 2d+
+13:22:53 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+13:22:53 05-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 21h 09-02-2024, 00h 10-02-2024, 03h 10-02-2024, 06h 10-02-2024, 09h 10-02-2024, 12h 10-02-2024",,
+13:22:53 05-02-2024,Pre-Serie,,,,,,
+
+13:24:14 05-02-2024,Agroscope Series,,,,,,
+13:24:14 05-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+13:24:14 05-02-2024,Bioschmid,,,,,,No logs for 2d+
+13:24:14 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+13:24:14 05-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 21h 09-02-2024, 00h 10-02-2024, 03h 10-02-2024, 06h 10-02-2024, 09h 10-02-2024, 12h 10-02-2024",,
+13:24:14 05-02-2024,Pre-Serie,,,,,,
+
+13:28:18 05-02-2024,Agroscope Series,,,,,,
+13:28:18 05-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+13:28:18 05-02-2024,Bioschmid,,,,,,No logs for 2d+
+13:28:18 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+13:28:18 05-02-2024,Qair,,,,,,
+13:28:18 05-02-2024,Pre-Serie,,,,,,
+
+13:46:10 05-02-2024,Agroscope Series,,,,,,
+13:46:10 05-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+13:46:10 05-02-2024,Bioschmid,,,,,,No logs for 2d+
+13:46:10 05-02-2024,Etchelecu,,,,,,No logs for 2d+
+13:46:10 05-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 21h 09-02-2024, 00h 10-02-2024, 03h 10-02-2024, 06h 10-02-2024, 09h 10-02-2024, 12h 10-02-2024",,
+13:46:10 05-02-2024,Pre-Serie,,,,,,
+
+10:20:09 06-02-2024,Agroscope Series,,,,,,
+10:20:09 06-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+10:20:09 06-02-2024,Bioschmid,,,,,,No logs for 2d+
+10:20:09 06-02-2024,Etchelecu,,,,09h 11-02-2024,,No logs for 2d+
+10:20:09 06-02-2024,Qair,,,,"21h 08-02-2024, 00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024",,
+10:20:09 06-02-2024,Pre-Serie,,,,,,
+
+09:36:20 07-02-2024,Agroscope Series,,,,,,
+09:36:20 07-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+09:36:20 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+09:36:20 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+09:36:20 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+09:36:20 07-02-2024,Pre-Serie,1_1,Razon_GHI: No logs for > 1d,,,,
+
+09:45:11 07-02-2024,Agroscope Series,,,,,,
+09:45:11 07-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+09:45:11 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+09:45:11 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+09:45:11 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+09:45:11 07-02-2024,Pre-Serie,1_1,Razon_GHI: No logs for > 1d,,,,
+
+09:45:45 07-02-2024,Agroscope Series,,,,,,
+09:45:45 07-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+09:45:45 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+09:45:45 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+09:45:45 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+09:45:45 07-02-2024,Pre-Serie,1_1,Razon_GHI: No logs for > 1d,,,,
+
+09:46:00 07-02-2024,Agroscope Series,,,,,,
+09:46:00 07-02-2024,Agroscope Berries,,,,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+09:46:00 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+09:46:00 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+09:46:00 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+09:46:00 07-02-2024,Pre-Serie,1_1,Razon_GHI: No logs for > 1d,,,,
+
+09:49:59 07-02-2024,Agroscope Series,,,,,,
+09:49:59 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT",,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+09:49:59 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+09:49:59 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+09:49:59 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+09:49:59 07-02-2024,Pre-Serie,1_1,Razon_GHI: No logs for > 1d,,,,
+
+09:50:32 07-02-2024,Agroscope Series,,,,,,
+09:50:32 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT",,,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+09:50:32 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+09:50:32 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+09:50:32 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+09:50:32 07-02-2024,Pre-Serie,1_1,Razon_GHI: No logs for > 1d,,,,
+
+10:15:32 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024, 09h 12-02-2024",,,
+10:15:32 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT","03h 12-02-2024, 06h 12-02-2024, 09h 12-02-2024",,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+10:15:32 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+10:15:32 07-02-2024,Etchelecu,,,,"03h 10-02-2024, 06h 10-02-2024, 09h 10-02-2024, 12h 10-02-2024, 15h 10-02-2024, 18h 10-02-2024, 21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024, 12h 11-02-2024",,No logs for 2d+
+10:15:32 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 21h 09-02-2024, 00h 10-02-2024, 09h 10-02-2024, 12h 11-02-2024, 15h 11-02-2024, 18h 11-02-2024, 21h 11-02-2024, 00h 12-02-2024, 03h 12-02-2024, 06h 12-02-2024, 09h 12-02-2024",,
+10:15:32 07-02-2024,Pre-Serie,1_1,Razon_GHI: No logs for > 1d,,,,
+
+10:24:20 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024, 09h 12-02-2024",,,
+10:24:20 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT","03h 12-02-2024, 06h 12-02-2024, 09h 12-02-2024",,,"screen_zone1: Emergency, screen_zone2: Emergency, screen_zone3: Emergency, screen_zone4: Emergency, screen_zone6: Emergency, screen_zone5: Emergency"
+10:24:20 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+10:24:20 07-02-2024,Etchelecu,,,,"03h 10-02-2024, 06h 10-02-2024, 09h 10-02-2024, 12h 10-02-2024, 15h 10-02-2024, 18h 10-02-2024, 21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024, 12h 11-02-2024",,No logs for 2d+
+10:24:20 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 06h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 21h 09-02-2024, 00h 10-02-2024, 09h 10-02-2024, 12h 11-02-2024, 15h 11-02-2024, 18h 11-02-2024, 21h 11-02-2024, 00h 12-02-2024, 03h 12-02-2024, 06h 12-02-2024, 09h 12-02-2024",,
+10:24:20 07-02-2024,Pre-Serie,1_1,Razon_GHI: No logs for > 2h,,,,
+
+14:15:23 07-02-2024,Agroscope Series,,,,,,
+14:15:23 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT",,,,No logs for 2d+
+14:15:23 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:15:23 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+14:15:23 07-02-2024,Qair,,,,,,
+14:15:23 07-02-2024,Pre-Serie,,,,,,
+
+14:17:45 07-02-2024,Agroscope Series,,,,,,
+14:17:45 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT",,,,No logs for 2d+
+14:17:45 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:17:45 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+14:17:45 07-02-2024,Qair,,,,,,
+14:17:45 07-02-2024,Pre-Serie,,,,,,
+
+14:18:54 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024",,,
+14:18:54 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT","03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+14:18:54 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:18:54 07-02-2024,Etchelecu,,,,"06h 10-02-2024, 15h 10-02-2024, 18h 10-02-2024, 21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024",,No logs for 2d+
+14:18:54 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 12h 11-02-2024, 15h 11-02-2024, 12h 12-02-2024",,
+14:18:54 07-02-2024,Pre-Serie,,,,,,
+
+14:19:48 07-02-2024,Agroscope Series,,,,,,
+14:19:48 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT",,,,No logs for 2d+
+14:19:48 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:19:48 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+14:19:48 07-02-2024,Qair,,,,,,
+14:19:48 07-02-2024,Pre-Serie,,,,,,
+
+14:23:25 07-02-2024,Agroscope Series,,,,,,
+14:23:25 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT",,,,No logs for 2d+
+14:23:25 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:23:25 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+14:23:25 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+14:23:25 07-02-2024,Pre-Serie,,,,,,
+
+14:26:25 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024",,,
+14:26:25 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT","03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+14:26:25 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:26:25 07-02-2024,Etchelecu,,,,"06h 10-02-2024, 15h 10-02-2024, 18h 10-02-2024, 21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024",,No logs for 2d+
+14:26:25 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 12h 11-02-2024, 15h 11-02-2024, 12h 12-02-2024",,
+14:26:25 07-02-2024,Pre-Serie,,,,,,
+
+14:35:49 07-02-2024,Agroscope Series,,,,,,
+14:35:49 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT",,,,No logs for 2d+
+14:35:49 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:35:49 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+14:35:49 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+14:35:49 07-02-2024,Pre-Serie,,,,,,
+
+14:37:51 07-02-2024,Agroscope Series,,,,,,No logs for 2d+
+14:37:51 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT",,,,No logs for 2d+
+14:37:51 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:37:51 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+14:37:51 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+14:37:51 07-02-2024,Pre-Serie,,,,,,
+
+14:41:33 07-02-2024,Agroscope Series,,,,,,No logs for 2d+
+14:41:33 07-02-2024,Agroscope Berries,86,WIND02_EXT,,,,No logs for 2d+
+14:41:33 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:41:33 07-02-2024,Etchelecu,,,,,,
+14:41:33 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+14:41:33 07-02-2024,Pre-Serie,,,,,,
+
+14:41:35 07-02-2024,Agroscope Series,,,,,,No logs for 2d+
+14:41:35 07-02-2024,Agroscope Berries,86,WIND02_EXT,,,,No logs for 2d+
+14:41:35 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:41:35 07-02-2024,Etchelecu,,,,,,
+14:41:35 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+14:41:35 07-02-2024,Pre-Serie,,,,,,
+
+14:49:28 07-02-2024,Agroscope Series,,,,,,No logs for 2d+
+14:49:28 07-02-2024,Agroscope Berries,86,WIND02_EXT,,,,No logs for 2d+
+14:49:28 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:49:28 07-02-2024,Etchelecu,,,,,,
+14:49:28 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+14:49:28 07-02-2024,Pre-Serie,,,,,,
+
+14:53:19 07-02-2024,Agroscope Series,,,,,,
+14:53:19 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT",,,,No logs for 2d+
+14:53:19 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+14:53:19 07-02-2024,Etchelecu,,,,,,No logs for 2d+
+14:53:19 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024",,
+14:53:19 07-02-2024,Pre-Serie,,,,,,
+
+15:00:08 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024",,,
+15:00:08 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT","03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+15:00:08 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+15:00:08 07-02-2024,Etchelecu,,,,"21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024",,No logs for 2d+
+15:00:08 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 12h 11-02-2024, 15h 11-02-2024, 12h 12-02-2024",,
+15:00:08 07-02-2024,Pre-Serie,,,,,,
+
+15:01:03 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024",,,
+15:01:03 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT","03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+15:01:03 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+15:01:03 07-02-2024,Etchelecu,,,,"21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024",,No logs for 2d+
+15:01:03 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 12h 11-02-2024, 15h 11-02-2024, 12h 12-02-2024",,
+15:01:03 07-02-2024,Pre-Serie,,,,,,
+
+15:17:35 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+15:17:35 07-02-2024,Agroscope Berries,86,WIND02_EXT,"03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+15:17:35 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+15:17:35 07-02-2024,Etchelecu,,,,"06h 10-02-2024, 15h 10-02-2024, 18h 10-02-2024, 21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024",,
+15:17:35 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 12h 11-02-2024, 15h 11-02-2024, 12h 12-02-2024",,
+15:17:35 07-02-2024,Pre-Serie,,,,,,
+
+15:21:30 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024",,,
+15:21:30 07-02-2024,Agroscope Berries,"86, 43, 44, 45, 46, 13, 14, 15, 16, 17, 18, 19, 20, 47, 48, 49, 50, 21, 22, 23, 24, 25, 26, 27, 28, 11, 12, 41, 42, 52, 51, 54, 53, 29, 30, 31, 32, 33, 34, 35, 36, 130, 131, 132, 137, 161, 162, 117, 71","WIND02_EXT, TRH_top_Insolagrin01_T60_Portrait_EW, TRH_bottom_Insolagrin01_T60_Portrait_EW, TRH_top_Insolagrin02_T40_Portrait_EW, TRH_bottom_Insolagrin02_T40_Portrait_EW, PAR01_Insolagrin01_T60_Portrait_EW, PAR02_Insolagrin01_T60_Portrait_EW, PAR03_Insolagrin01_T60_Portrait_EW, PAR04_Insolagrin01_T60_Portrait_EW, PAR01_Insolagrin02_T40_Portrait_EW, PAR02_Insolagrin02_T40_Portrait_EW, PAR03_Insolagrin02_T40_Portrait_EW, PAR04_Insolagrin02_T40_Portrait_EW, TRH_top_Insolagrin03_T60_Portrait_WW, TRH_bottom_Insolagrin03_T60_Portrait_WW, TRH_top_Insolagrin04_T40_Portrait_WW, TRH_bottom_Insolagrin04_T40_Portrait_WW, PAR01_Insolagrin03_T60_Portrait_WW, PAR02_Insolagrin03_T60_Portrait_WW, PAR03_Insolagrin03_T60_Portrait_WW, PAR04_Insolagrin03_T60_Portrait_WW, PAR01_Insolagrin04_T40_Portrait_WW, PAR02_Insolagrin04_T40_Portrait_WW, PAR03_Insolagrin04_T40_Portrait_WW, PAR04_Insolagrin04_T40_Portrait_WW, PAR01_EXT, PAR02_EXT, TRH_top_EXT, TRH_bottom_EXT, TRH_bottom_Insolagrin05_T60_Landscape_EW, TRH_top_Insolagrin05_T60_Landscape_EW, TRH_bottom_Insolagrin06_T40_Landscape_EW, TRH_top_Insolagrin06_T40_Landscape_EW, PAR01_Insolagrin05_T60_Landscape_EW, PAR02_Insolagrin05_T60_Landscape_EW, PAR03_Insolagrin05_T60_Landscape_EW, PAR04_Insolagrin05_T60_Landscape_EW, PAR01_Insolagrin06_T40_Landscape_EW, PAR02_Insolagrin06_T40_Landscape_EW, PAR03_Insolagrin06_T40_Landscape_EW, PAR04_Insolagrin06_T40_Landscape_EW, LeafTemp_Z2_int_int, LeafTemp_Z2_side_int, LeafTemp_Z2_side_ext, LeafTemp_Z4_int_int, SOIL_UP_Insolagrin02, SOIL_DOWN_Insolagrin02, RAIN_EXT, WIND01_EXT","03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+15:21:30 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+15:21:30 07-02-2024,Etchelecu,,,,"06h 10-02-2024, 15h 10-02-2024, 18h 10-02-2024, 21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024",,No logs for 2d+
+15:21:30 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 12h 11-02-2024, 15h 11-02-2024, 12h 12-02-2024",,
+15:21:30 07-02-2024,Pre-Serie,,,,,,
+
+15:23:17 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+15:23:17 07-02-2024,Agroscope Berries,86,WIND02_EXT,"03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+15:23:17 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+15:23:17 07-02-2024,Etchelecu,,,,"06h 10-02-2024, 15h 10-02-2024, 18h 10-02-2024, 21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024",,
+15:23:17 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 12h 11-02-2024, 15h 11-02-2024, 12h 12-02-2024",,
+15:23:17 07-02-2024,Pre-Serie,,,,,,
+
+15:25:38 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+15:25:38 07-02-2024,Agroscope Berries,86,WIND02_EXT,"03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+15:25:38 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+15:25:38 07-02-2024,Etchelecu,,,,"06h 10-02-2024, 15h 10-02-2024, 18h 10-02-2024, 21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024",,
+15:25:38 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 12h 11-02-2024, 15h 11-02-2024, 12h 12-02-2024",,
+15:25:38 07-02-2024,Pre-Serie,,,,,,
+
+15:26:21 07-02-2024,Agroscope Series,,,"03h 12-02-2024, 06h 12-02-2024",,,
+15:26:21 07-02-2024,Agroscope Berries,48,TRH_bottom_Insolagrin03_T60_Portrait_WW,"03h 12-02-2024, 06h 12-02-2024",,,No logs for 2d+
+15:26:21 07-02-2024,Bioschmid,,,,,,No logs for 2d+
+15:26:21 07-02-2024,Etchelecu,,,,"06h 10-02-2024, 15h 10-02-2024, 18h 10-02-2024, 21h 10-02-2024, 00h 11-02-2024, 03h 11-02-2024",,No logs for 2d+
+15:26:21 07-02-2024,Qair,,,,"00h 09-02-2024, 03h 09-02-2024, 09h 09-02-2024, 12h 09-02-2024, 15h 09-02-2024, 18h 09-02-2024, 12h 11-02-2024, 15h 11-02-2024, 12h 12-02-2024",,
+15:26:21 07-02-2024,Pre-Serie,,,,,,
+

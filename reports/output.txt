@@ -1,235 +1,33 @@
-2024-01-18 11h09 - 👤 Insolight
+2024-02-07 15h26 - 👤 Insolight
 
-+-------------------+-------------+-----------------------+----------------+----------------+-------------+-----------------+
-| Installation      | Sensor ID   | Sensor Name           | Snow fall      | Strong wind    | High temp   | Screen mode     |
-+===================+=============+=======================+================+================+=============+=================+
-| Agroscope Series  | 130         | leaf_temp_FS1         | 00h 19-01-2024 |                |             |                 |
-|                   | 116         | rain                  | 03h 19-01-2024 |                |             |                 |
-|                   |             |                       | 06h 19-01-2024 |                |             |                 |
-|                   |             |                       | 09h 19-01-2024 |                |             |                 |
-|                   |             |                       | 12h 19-01-2024 |                |             |                 |
-+-------------------+-------------+-----------------------+----------------+----------------+-------------+-----------------+
-| Agroscope Berries |             |                       | 00h 19-01-2024 |                |             | No logs for 2d+ |
-|                   |             |                       | 03h 19-01-2024 |                |             |                 |
-|                   |             |                       | 06h 19-01-2024 |                |             |                 |
-|                   |             |                       | 09h 19-01-2024 |                |             |                 |
-|                   |             |                       | 12h 19-01-2024 |                |             |                 |
-+-------------------+-------------+-----------------------+----------------+----------------+-------------+-----------------+
-| Bioschmid         |             |                       | 18h 18-01-2024 |                |             | No logs for 2d+ |
-|                   |             |                       | 21h 18-01-2024 |                |             |                 |
-|                   |             |                       | 00h 19-01-2024 |                |             |                 |
-|                   |             |                       | 03h 19-01-2024 |                |             |                 |
-|                   |             |                       | 06h 19-01-2024 |                |             |                 |
-+-------------------+-------------+-----------------------+----------------+----------------+-------------+-----------------+
-| Etchelecu         | 43          | TRH_top_Insolagrin    |                |                |             | No logs for 2d+ |
-|                   | 44          | TRH_bottom_Insolagrin |                |                |             |                 |
-|                   | 71          | WIND01_EXT            |                |                |             |                 |
-|                   | 86          | WIND02_EXT            |                |                |             |                 |
-|                   | 13          | PAR01_Insolagrin      |                |                |             |                 |
-|                   | 14          | PAR02_Insolagrin      |                |                |             |                 |
-|                   | 15          | PAR03_Insolagrin      |                |                |             |                 |
-|                   | 16          | PAR04_Insolagrin      |                |                |             |                 |
-|                   | 11          | PAR01_EXT             |                |                |             |                 |
-|                   | 12          | PAR02_EXT             |                |                |             |                 |
-|                   | 41          | TRH_top_EXT           |                |                |             |                 |
-|                   | 42          | TRH_bottom_EXT        |                |                |             |                 |
-|                   | 100         | GHI_01_EXT            |                |                |             |                 |
-|                   | 45          | TRH_top_control       |                |                |             |                 |
-|                   | 46          | TRH_bottom_control    |                |                |             |                 |
-|                   | 17          | PAR01_control         |                |                |             |                 |
-|                   | 18          | PAR02_control         |                |                |             |                 |
-|                   | 81          | RAIN_EXT              |                |                |             |                 |
-+-------------------+-------------+-----------------------+----------------+----------------+-------------+-----------------+
-| Qair              |             |                       |                | 00h 19-01-2024 |             |                 |
-|                   |             |                       |                | 03h 19-01-2024 |             |                 |
-|                   |             |                       |                | 06h 19-01-2024 |             |                 |
-|                   |             |                       |                | 09h 19-01-2024 |             |                 |
-|                   |             |                       |                | 12h 19-01-2024 |             |                 |
-|                   |             |                       |                | 15h 19-01-2024 |             |                 |
-|                   |             |                       |                | 18h 19-01-2024 |             |                 |
-|                   |             |                       |                | 21h 19-01-2024 |             |                 |
-|                   |             |                       |                | 00h 20-01-2024 |             |                 |
-|                   |             |                       |                | 03h 20-01-2024 |             |                 |
-|                   |             |                       |                | 06h 20-01-2024 |             |                 |
-|                   |             |                       |                | 09h 20-01-2024 |             |                 |
-|                   |             |                       |                | 12h 20-01-2024 |             |                 |
-+-------------------+-------------+-----------------------+----------------+----------------+-------------+-----------------+
-
-Agroscope Series
-+-----------------------------------+------------+---------------------+--------------+
-|                                   | Last log   | Time offline (1w)   | % offline    |
-|-----------------------------------+------------+---------------------+--------------|
-| rain                              | > 1 week   | NaT                 | [##########] |
-| leaf_temp_FS1                     | > 1 week   | NaT                 | [##########] |
-| TRH01_GT_tunnel                   | Online     | 0 days 00:15:00     | [----------] |
-| TRH_top_Nursery                   | Online     | 0 days 00:09:00     | [----------] |
-| TRH02_GT1_tunnel                  | Online     | 0 days 00:09:00     | [----------] |
-| TRH01_GT1_tunnel                  | Online     | 0 days 00:09:00     | [----------] |
-| TRH_bottom_Nursery                | Online     | 0 days 00:06:00     | [----------] |
-| TRH02_GT_tunnel                   | Online     | 0 days 00:06:00     | [----------] |
-| PAR_EXT_06                        | Online     | 0 days 00:00:00     | [----------] |
-| PAR_EXT_05                        | Online     | 0 days 00:00:00     | [----------] |
-| PAR_EXT_04                        | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_Nursery                     | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_GT1_tunnel                  | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_GT_tunnel                   | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_TX_tunnel                   | Online     | 0 days 00:00:00     | [----------] |
-| PAR_umbrella                      | Online     | 0 days 00:00:00     | [----------] |
-| PAR_umbrella_strawb               | Online     | 0 days 00:00:00     | [----------] |
-| PAR_STRAWB                        | Online     | 0 days 00:00:00     | [----------] |
-| PAR_ext_bis                       | Online     | 0 days 00:00:00     | [----------] |
-| PAR8                              | Online     | 0 days 00:00:00     | [----------] |
-| PAR7                              | Online     | 0 days 00:00:00     | [----------] |
-| PAR6                              | Online     | 0 days 00:00:00     | [----------] |
-| PAR5                              | Online     | 0 days 00:00:00     | [----------] |
-| PAR4                              | Online     | 0 days 00:00:00     | [----------] |
-| PAR3                              | Online     | 0 days 00:00:00     | [----------] |
-| PAR2                              | Online     | 0 days 00:00:00     | [----------] |
-| PAR1                              | Online     | 0 days 00:00:00     | [----------] |
-| GHI_EXT_04                        | Online     | 0 days 00:00:00     | [----------] |
-| GHI_EXT_03                        | Online     | 0 days 00:00:00     | [----------] |
-| GHI_EXT_02                        | Online     | 0 days 00:00:00     | [----------] |
-| GHI_EXT                           | Online     | 0 days 00:00:00     | [----------] |
-| weather_station                   | Online     | 0 days 00:00:00     | [----------] |
-| TRH01_TX_tunnel                   | Online     | 0 days 00:00:00     | [----------] |
-| T_RH_umbrella_bottom              | Online     | 0 days 00:00:00     | [----------] |
-| T_RH_umbrella_top                 | Online     | 0 days 00:00:00     | [----------] |
-| T_RH_ext_bottom                   | Online     | 0 days 00:00:00     | [----------] |
-| T_RH2                             | Online     | 0 days 00:00:00     | [----------] |
-| T_RH1                             | Online     | 0 days 00:00:00     | [----------] |
-| TRH_EXT_top                       | Online     | 0 days 00:00:00     | [----------] |
-| wind_speed_ultrasonic             | Online     | 0 days 00:00:00     | [----------] |
-| wind_speed                        | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Tulameen_E_NurseryTunnel | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Tulameen_W_NurseryTunnel | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Vajolet_E_NurseryTunnel  | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Vajolet_W_NurseryTunnel  | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Tulameen_E_Nursery       | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Tulameen_W_Nursery       | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Vajolet_E_Nursery        | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Vajolet_W_Nursery        | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp02_Joly_Insolagrin05_TX   | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp01_Joly_Insolagrin05_TX   | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp02_Flair_Insolagrin05_TX  | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp01_Flair_Insolagrin05_TX  | Online     | 0 days 00:00:00     | [----------] |
-| leaf_temp_umbrella1               | Online     | 0 days 00:00:00     | [----------] |
-| leaf_temp_insolagrin_1            | Online     | 0 days 00:00:00     | [----------] |
-+-----------------------------------+------------+---------------------+--------------+
-
-Agroscope Berries
-+------------------------------------------+------------+---------------------+--------------+
-|                                          | Last log   | Time offline (1w)   | % offline    |
-|------------------------------------------+------------+---------------------+--------------|
-| WIND02_EXT                               | Online     | 5 days 08:56:00     | [########--] |
-| TRH_top_Insolagrin02_T40_Portrait_EW     | Online     | 0 days 01:53:00     | [----------] |
-| TRH_top_Insolagrin04_T40_Portrait_WW     | Online     | 0 days 01:09:00     | [----------] |
-| TRH_bottom_Insolagrin01_T60_Portrait_EW  | Online     | 0 days 00:35:00     | [----------] |
-| TRH_top_Insolagrin01_T60_Portrait_EW     | Online     | 0 days 00:28:00     | [----------] |
-| TRH_bottom_Insolagrin06_T40_Landscape_EW | Online     | 0 days 00:09:00     | [----------] |
-| TRH_bottom_EXT                           | Online     | 0 days 00:06:00     | [----------] |
-| TRH_bottom_Insolagrin04_T40_Portrait_WW  | Online     | 0 days 00:06:00     | [----------] |
-| TRH_bottom_Insolagrin02_T40_Portrait_EW  | Online     | 0 days 00:06:00     | [----------] |
-| TRH_top_Insolagrin06_T40_Landscape_EW    | Online     | 0 days 00:03:00     | [----------] |
-| TRH_top_Insolagrin05_T60_Landscape_EW    | Online     | 0 days 00:03:00     | [----------] |
-| PAR04_Insolagrin06_T40_Landscape_EW      | Online     | 0 days 00:00:00     | [----------] |
-| PAR03_Insolagrin06_T40_Landscape_EW      | Online     | 0 days 00:00:00     | [----------] |
-| PAR02_Insolagrin06_T40_Landscape_EW      | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_Insolagrin06_T40_Landscape_EW      | Online     | 0 days 00:00:00     | [----------] |
-| PAR04_Insolagrin05_T60_Landscape_EW      | Online     | 0 days 00:00:00     | [----------] |
-| PAR03_Insolagrin05_T60_Landscape_EW      | Online     | 0 days 00:00:00     | [----------] |
-| PAR02_Insolagrin05_T60_Landscape_EW      | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_Insolagrin05_T60_Landscape_EW      | Online     | 0 days 00:00:00     | [----------] |
-| PAR02_EXT                                | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_EXT                                | Online     | 0 days 00:00:00     | [----------] |
-| PAR04_Insolagrin04_T40_Portrait_WW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR03_Insolagrin04_T40_Portrait_WW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR02_Insolagrin04_T40_Portrait_WW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_Insolagrin04_T40_Portrait_WW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR04_Insolagrin03_T60_Portrait_WW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR03_Insolagrin03_T60_Portrait_WW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR02_Insolagrin03_T60_Portrait_WW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_Insolagrin03_T60_Portrait_WW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR04_Insolagrin02_T40_Portrait_EW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR03_Insolagrin02_T40_Portrait_EW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR02_Insolagrin02_T40_Portrait_EW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_Insolagrin02_T40_Portrait_EW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR04_Insolagrin01_T60_Portrait_EW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR03_Insolagrin01_T60_Portrait_EW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR02_Insolagrin01_T60_Portrait_EW       | Online     | 0 days 00:00:00     | [----------] |
-| PAR01_Insolagrin01_T60_Portrait_EW       | Online     | 0 days 00:00:00     | [----------] |
-| SOIL_DOWN_Insolagrin02                   | Online     | 0 days 00:00:00     | [----------] |
-| SOIL_UP_Insolagrin02                     | Online     | 0 days 00:00:00     | [----------] |
-| TRH_bottom_Insolagrin05_T60_Landscape_EW | Online     | 0 days 00:00:00     | [----------] |
-| TRH_top_EXT                              | Online     | 0 days 00:00:00     | [----------] |
-| TRH_bottom_Insolagrin03_T60_Portrait_WW  | Online     | 0 days 00:00:00     | [----------] |
-| TRH_top_Insolagrin03_T60_Portrait_WW     | Online     | 0 days 00:00:00     | [----------] |
-| RAIN_EXT                                 | Online     | 0 days 00:00:00     | [----------] |
-| WIND01_EXT                               | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Z4_int_int                      | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Z2_side_ext                     | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Z2_side_int                     | Online     | 0 days 00:00:00     | [----------] |
-| LeafTemp_Z2_int_int                      | Online     | 0 days 00:00:00     | [----------] |
-+------------------------------------------+------------+---------------------+--------------+
-
-Bioschmid
-+------------------+------------+---------------------+--------------+
-|                  | Last log   | Time offline (1w)   | % offline    |
-|------------------+------------+---------------------+--------------|
-| WIND02_EXT       | Online     | 6 days 23:15:01     | [##########] |
-| PAR01_EXT        | Online     | 1 days 08:29:01     | [##--------] |
-| TRH02_EXT        | Online     | 0 days 03:58:01     | [----------] |
-| PAR02_EXT        | Online     | 0 days 03:22:01     | [----------] |
-| TRH02_kontroll   | Online     | 0 days 01:45:01     | [----------] |
-| TRH01_INSOLAGRIN | Online     | 0 days 01:29:01     | [----------] |
-| TRH01_EXT        | Online     | 0 days 01:14:01     | [----------] |
-| TRH02_INSOLAGRIN | Online     | 0 days 01:02:01     | [----------] |
-| PAR04_INSOLAGRIN | Online     | 0 days 00:59:01     | [----------] |
-| PAR03_INSOLAGRIN | Online     | 0 days 00:59:01     | [----------] |
-| PAR02_INSOLAGRIN | Online     | 0 days 00:59:01     | [----------] |
-| PAR01_INSOLAGRIN | Online     | 0 days 00:59:01     | [----------] |
-| GHI_01_EXT       | Online     | 0 days 00:59:01     | [----------] |
-| RAIN01_EXT       | Online     | 0 days 00:59:01     | [----------] |
-| WIND01_EXT       | Online     | 0 days 00:59:01     | [----------] |
-| TRH04_EXT        | Online     | 0 days 00:42:01     | [----------] |
-| TRH01_agriverti  | Online     | 0 days 00:23:01     | [----------] |
-| TRH02_agriverti  | Online     | 0 days 00:05:01     | [----------] |
-| PAR03_agriverti  | Online     | 0 days 00:02:01     | [----------] |
-| PAR02_agriverti  | Online     | 0 days 00:02:01     | [----------] |
-| PAR01_agriverti  | Online     | 0 days 00:02:01     | [----------] |
-| PAR03_kontroll   | Online     | 0 days 00:02:01     | [----------] |
-| PAR02_kontroll   | Online     | 0 days 00:02:01     | [----------] |
-| PAR01_kontroll   | Online     | 0 days 00:02:01     | [----------] |
-| TRH03_EXT        | Online     | 0 days 00:02:01     | [----------] |
-| TRH01_kontroll   | Online     | 0 days 00:02:01     | [----------] |
-+------------------+------------+---------------------+--------------+
-
-Etchelecu
-+-----------------------+------------+---------------------+--------------+
-|                       | Last log   | Time offline (1w)   | % offline    |
-|-----------------------+------------+---------------------+--------------|
-| PAR02_control         | > 1 week   | NaT                 | [##########] |
-| PAR01_control         | > 1 week   | NaT                 | [##########] |
-| PAR02_EXT             | > 1 week   | NaT                 | [##########] |
-| PAR01_EXT             | > 1 week   | NaT                 | [##########] |
-| PAR04_Insolagrin      | > 1 week   | NaT                 | [##########] |
-| PAR03_Insolagrin      | > 1 week   | NaT                 | [##########] |
-| PAR02_Insolagrin      | > 1 week   | NaT                 | [##########] |
-| PAR01_Insolagrin      | > 1 week   | NaT                 | [##########] |
-| GHI_01_EXT            | > 1 week   | NaT                 | [##########] |
-| TRH_bottom_control    | > 1 week   | NaT                 | [##########] |
-| TRH_top_control       | > 1 week   | NaT                 | [##########] |
-| TRH_bottom_EXT        | > 1 week   | NaT                 | [##########] |
-| TRH_top_EXT           | > 1 week   | NaT                 | [##########] |
-| TRH_bottom_Insolagrin | > 1 week   | NaT                 | [##########] |
-| TRH_top_Insolagrin    | > 1 week   | NaT                 | [##########] |
-| RAIN_EXT              | > 1 week   | NaT                 | [##########] |
-| WIND02_EXT            | > 1 week   | NaT                 | [##########] |
-| WIND01_EXT            | > 1 week   | NaT                 | [##########] |
-+-----------------------+------------+---------------------+--------------+
-
-Qair
-+------------+---------------------+-------------+
-| Last log   | Time offline (1w)   | % offline   |
-|------------+---------------------+-------------|
-+------------+---------------------+-------------+
++-------------------+-------------+-----------------------------------------+----------------+----------------+-------------+-----------------+
+| Installation      | Sensor ID   | Sensor Name                             | Snow fall      | Strong wind    | High temp   | Screen mode     |
++===================+=============+=========================================+================+================+=============+=================+
+| Agroscope Series  |             |                                         | 03h 12-02-2024 |                |             |                 |
+|                   |             |                                         | 06h 12-02-2024 |                |             |                 |
++-------------------+-------------+-----------------------------------------+----------------+----------------+-------------+-----------------+
+| Agroscope Berries | 48          | TRH_bottom_Insolagrin03_T60_Portrait_WW | 03h 12-02-2024 |                |             | No logs for 2d+ |
+|                   |             |                                         | 06h 12-02-2024 |                |             |                 |
++-------------------+-------------+-----------------------------------------+----------------+----------------+-------------+-----------------+
+| Bioschmid         |             |                                         |                |                |             | No logs for 2d+ |
++-------------------+-------------+-----------------------------------------+----------------+----------------+-------------+-----------------+
+| Etchelecu         |             |                                         |                | 06h 10-02-2024 |             | No logs for 2d+ |
+|                   |             |                                         |                | 15h 10-02-2024 |             |                 |
+|                   |             |                                         |                | 18h 10-02-2024 |             |                 |
+|                   |             |                                         |                | 21h 10-02-2024 |             |                 |
+|                   |             |                                         |                | 00h 11-02-2024 |             |                 |
+|                   |             |                                         |                | 03h 11-02-2024 |             |                 |
++-------------------+-------------+-----------------------------------------+----------------+----------------+-------------+-----------------+
+| Qair              |             |                                         |                | 00h 09-02-2024 |             |                 |
+|                   |             |                                         |                | 03h 09-02-2024 |             |                 |
+|                   |             |                                         |                | 09h 09-02-2024 |             |                 |
+|                   |             |                                         |                | 12h 09-02-2024 |             |                 |
+|                   |             |                                         |                | 15h 09-02-2024 |             |                 |
+|                   |             |                                         |                | 18h 09-02-2024 |             |                 |
+|                   |             |                                         |                | 12h 11-02-2024 |             |                 |
+|                   |             |                                         |                | 15h 11-02-2024 |             |                 |
+|                   |             |                                         |                | 12h 12-02-2024 |             |                 |
++-------------------+-------------+-----------------------------------------+----------------+----------------+-------------+-----------------+
+| Pre-Serie         |             |                                         |                |                |             |                 |
++-------------------+-------------+-----------------------------------------+----------------+----------------+-------------+-----------------+
 
