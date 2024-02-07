@@ -14,6 +14,7 @@ from tabulate import tabulate
 from pytz import timezone
 import last_logs as ll
 import getpass
+import datetime as dt
 
 
 SHOW_PLOT = False
@@ -104,7 +105,7 @@ def get_weather_forecast(dict_instal, api_data, city_name):
     """
     Request the weather forecast for the next 2 days, every 3 hours
     """
-    params = {"appid": api_data[0], "cnt": "20", "units": "metric"}
+    params = {"appid": api_data[0], "cnt": "40", "units": "metric"}
 
     params["lat"] = dict_instal[city_name]["latitude"]
     params["lon"] = dict_instal[city_name]["longitude"]
@@ -488,6 +489,7 @@ if __name__ == "__main__":
             set(dict_channel_id[instal]) - set(dict_instal_logs[instal])
         )
 
+
         #try to identify the missing sensors from the channel list
         for sensor_id in diff_logs[instal]:
             for sensor in list_sensor:
@@ -506,6 +508,18 @@ if __name__ == "__main__":
                     ]
                 except:
                     pass
+
+
+    # download the logs for the preseries for 1 day
+    with open(installation_path + "local.json") as f:
+        local_data = json.load(f)
+
+    with warnings.catch_warnings():
+        print("Downloading Razon logs...")
+        warnings.simplefilter("ignore", category=UserWarning)
+        api_razon = API(local_data["API_user"], local_data["API_pwd"], dev_space=False, install=9)
+        df_razon = api_razon.get_sensors_csv(start=(dt.date.today()))
+
 
     df_missing_sensors = pd.DataFrame.from_dict(
         dict_missing_sensors,
@@ -542,6 +556,22 @@ if __name__ == "__main__":
         if col == "Installation":
             continue
         df_report_string[col] = df_report_string[col].apply(list_to_string)
+
+        # add the Razon to the report
+    if len(df_razon[df_razon["Identifier"] == "1_1"]):
+        # print("Razon has been logging")
+        last_log_razon = df_razon[df_razon["Identifier"] == "1_1"].index[-1]
+        now_timestamp = pd.Timestamp.now(tz="UTC")
+        time_diff_razon = now_timestamp - last_log_razon
+        # print(f"Time since last log: {time_diff_razon}")
+        if time_diff_razon > pd.Timedelta(minutes=20):
+            # time_diff_razon.strftime("%d %H:%M:%S")
+            time_diff_razon = time_diff_razon.floor("T")
+            df_report_string.loc[len(df_report)] = ["Pre-Serie", "1_1", f"Razon_GHI: {time_diff_razon}", "", "", "", ""]
+        else:
+            df_report_string.loc[len(df_report)] = ["Pre-Serie", "", "", "", "", "", ""]
+    else:
+        df_report_string.loc[len(df_report)] = ["Pre-Serie", "1_1", "Razon_GHI: No logs for > 1d", "", "", "", ""]
 
 
     save_alerts_to_csv(df_report_string.copy())

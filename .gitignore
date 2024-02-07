@@ -2,3 +2,6 @@
 FieldSentry/
 reports/output.txt
 reports/count_requests.csv
+reports/output.txt
+reports/log_reports.csv
+*.csv
