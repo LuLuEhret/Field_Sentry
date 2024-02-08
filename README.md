@@ -28,7 +28,7 @@ OR
 
 OR 
 
-- *NEW* Run the `FieldSentry - custom date.bat` to see the state at a custom date. 
+- *NEW: * Run the `FieldSentry - custom date.bat` to see the state at a custom date. 
 
 ## Editing the configuration
 
