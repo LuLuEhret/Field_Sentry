@@ -20,16 +20,20 @@ In the `config/api_credits_path.json` file, change the path to where the "local.
 
 OR
 
-- Run directly from within a python IDE
+- Run directly from within a python IDE (VSCode, ...)
 
 OR
 
 - Run the notebook named `Field_Sentry.ipynb`
 
+OR 
+
+- *NEW* Run the `FieldSentry - custom date.bat` to see the state at a custom date. 
+
 ## Editing the configuration
 
 ### Addition of an installation
-Open the file `"config/config.json"` and add a new installation on the same template as the already existing ones
+Open the file `"config/config.json"` and add a new installation with the same template as the already existing ones
 
 ### Modification of weather alarm trigger levels
 Open the file `"config/config.json"` and change the wind or high temperature levels
