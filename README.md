@@ -28,8 +28,8 @@ OR
 
 OR 
 
-- *NEW* Run the `FieldSentry - custom date.bat` to see the state at a custom date. 
-
+- *NEW Custom date:*  Run the `FieldSentry - custom date.bat`, or change the CUSTOM_DATE to True within `Field_Sentry.ipynb`.
+  
 ## Editing the configuration
 
 ### Addition of an installation
