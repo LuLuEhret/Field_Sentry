@@ -25,7 +25,7 @@ SHOW_PLOT = False
 CUSTOM_DATE = sys.argv[1] if len(sys.argv) > 1 else False
 
 
-list_sensor = [
+list_sensor = [ #list of sensor types to be checked
     "PAR",
     "IRRAD",
     "GII",

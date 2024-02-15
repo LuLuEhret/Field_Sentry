@@ -14,6 +14,8 @@ def print_progress_bar(percentage, length=10):
     # print(percentage)
     if np.isnan(percentage):
         percentage = 1
+    if percentage > 1:
+        percentage = 1
     block = int(round(length * percentage))
     progress = "[" + "#" * block + "-" * (length - block) + "]"
     # print(f"\r{progress}", end="", flush=True)
@@ -22,7 +24,7 @@ def print_progress_bar(percentage, length=10):
 
 def last_logs(dict_instal, list_sensor, api):
     time_args = dict(
-        start=pdl.yesterday().subtract(weeks=1).to_datetime_string(),
+        start=pdl.now().subtract(weeks=1).to_datetime_string(),
         stop=(pdl.now()).to_datetime_string(),
         timezone = timezone('Europe/Zurich')
     )
