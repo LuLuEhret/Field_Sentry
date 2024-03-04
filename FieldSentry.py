@@ -417,7 +417,8 @@ def ask_for_datetime(date_input, show_details = False, deltaT_days=0, deltaT_hou
 if __name__ == "__main__":
     try:
         with open("config/api_credits_path.json") as f:
-            installation_path = json.load(f)["path"]
+            username_path = getpass.getuser()
+            installation_path = json.load(f)["user_path"][username_path]
 
         # installation_path = "C:/Users/Insolight/Desktop/InsolReports/Installations/"
         with open(installation_path + "local.json") as f:
