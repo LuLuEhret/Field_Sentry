@@ -10,8 +10,9 @@ The script must be run from within the environment `insolinsights`
 
 `pip install -r requirements.txt`
 
-### Change the path to the local json file
-In the `config/api_credits_path.json` file, change the path to where the "local.json" file is located (usually in the InsolReports/Scripts folder) so that the API can access the credits.
+
+### Add a new user to the local config file
+To run the script for the 1st time on a new computer, you should add the username (as written in the file explorer) in the `config/api_credits_path.json`.
 
 
 ## How to run
