@@ -52,6 +52,7 @@ dict_screen_mode = {
     4: "Protection",
     5: "Demo",
     6: "Remote",
+    7: "Critical",
 }
 
 
